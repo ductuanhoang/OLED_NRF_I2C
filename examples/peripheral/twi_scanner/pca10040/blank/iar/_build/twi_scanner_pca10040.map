@@ -1,0 +1,1900 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.1.15669/W32 for ARM                02/Nov/2021  18:12:32
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\twi_scanner_pca10040.out
+#    Map file     =  
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\twi_scanner_pca10040.map
+#    Command line =  
+#        -f C:\Users\Yolo\AppData\Local\Temp\EW79AA.tmp
+#        (D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\app_error.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\app_error_handler_iar.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\app_error_weak.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\app_timer2.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\app_util_platform.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\boards.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\drv_rtc.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\i2c_driver.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\iar_startup_nrf52.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_anim.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_arc.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_area.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_async.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_bar.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_bidi.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_btn.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_btnmatrix.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_calendar.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_canvas.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_chart.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_checkbox.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_color.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_cont.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_cpicker.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_debug.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_disp.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_arc.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_blend.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_img.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_label.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_line.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_mask.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_rect.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_draw_triangle.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_dropdown.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_dejavu_16_persian_hebrew.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_fmt_txt.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_loader.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_10.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_12.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_12_subpx.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_14.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_16.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_18.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_20.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_22.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_24.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_26.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_28.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_28_compressed.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_30.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_32.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_34.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_36.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_38.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_40.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_42.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_44.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_46.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_48.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_montserrat_8.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_simsun_16_cjk.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_unscii_16.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_font_unscii_8.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_fs.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gauge.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gc.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gpu_nxp_pxp.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gpu_nxp_pxp_osa.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gpu_nxp_vglite.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_gpu_stm32_dma2d.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_group.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_hal_disp.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_hal_indev.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_hal_tick.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_img.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_img_buf.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_img_cache.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_img_decoder.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_imgbtn.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_indev.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_keyboard.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_label.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_led.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_line.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_linemeter.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_list.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_ll.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_log.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_math.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_mem.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_msgbox.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_obj.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_objmask.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_objx_templ.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_page.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_printf.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_refr.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_roller.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_slider.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_spinbox.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_spinner.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_style.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_switch.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_table.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_tabview.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_task.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_templ.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_textarea.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_theme.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_theme_empty.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_theme_material.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_theme_mono.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_theme_template.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_tileview.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_txt.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_txt_ap.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_utils.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\lv_win.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\main.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_assert.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_atfifo.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_atomic.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_balloc.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_drv_twi.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_drv_uart.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_fprintf.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_fprintf_format.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_backend_rtt.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_backend_serial.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_backend_uart.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_default_backends.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_frontend.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_log_str_formatter.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_memobj.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_ringbuf.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_sortlist.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrf_strerror.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_atomic.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_prs.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_twi.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_twim.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_uart.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\nrfx_uarte.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\oled_ssd1309.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\SEGGER_RTT.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\SEGGER_RTT_printf.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\SEGGER_RTT_Syscalls_IAR.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\system_nrf52.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\timer_service.o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\user_lvgl_config.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\twi_scanner_pca10040.out
+#        --map
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build\twi_scanner_pca10040.map
+#        --config
+#        D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\twi_scanner_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+define block RO_END with size = 0M, alignment = 8 { };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { ro, block RO_END };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+keep { section .intvec };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                       0x200
+  .intvec            ro code  0x00000000    0x200  iar_startup_nrf52.o [1]
+                            - 0x00000200    0x200
+
+"P1":                                     0x1a685
+  .rodata            const    0x00000200   0x340c  lv_font_montserrat_14.o [1]
+  .text              ro code  0x0000360c   0x32f1  lv_theme_material.o [1]
+  .text              ro code  0x000068fe     0x7a  lz77_init_single.o [5]
+  .text              ro code  0x00006978    0x8e8  lv_style.o [1]
+  .text              ro code  0x00007260     0xbd  lv_color.o [1]
+  .text              ro code  0x0000731e     0x1e  xencoding_8859_1.o [3]
+  .text              ro code  0x0000733c    0x27d  lv_hal_disp.o [1]
+  .text              ro code  0x000075ba      0xa  xsprout.o [3]
+  .text              ro code  0x000075c4    0x614  lv_mem.o [1]
+  .text              ro code  0x00007bd8   0x2dbc  lv_obj.o [1]
+  .text              ro code  0x0000a994     0x68  lv_debug.o [1]
+  .text              ro code  0x0000a9fc    0x24a  lv_ll.o [1]
+  .text              ro code  0x0000ac46      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000ac48    0x2d4  lv_task.o [1]
+  .text              ro code  0x0000af1c     0x66  ABImemset.o [5]
+  .text              ro code  0x0000af82      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000af84      0x6  ABImemclr4.o [5]
+  .text              ro code  0x0000af8a      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000af8c      0x6  ABImemclr.o [5]
+  .text              ro code  0x0000af92      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000af94    0x1b8  lv_fs.o [1]
+  .text              ro code  0x0000b14c    0x348  lv_anim.o [1]
+  .text              ro code  0x0000b494    0x274  lv_group.o [1]
+  .text              ro code  0x0000b708    0x15c  lv_theme.o [1]
+  .text              ro code  0x0000b864     0xac  lv_indev.o [1]
+  .text              ro code  0x0000b910    0x7ac  lv_img_decoder.o [1]
+  .text              ro code  0x0000c0bc    0x1d4  lv_img_cache.o [1]
+  .text              ro code  0x0000c290    0xb28  lv_refr.o [1]
+  .text              ro code  0x0000cdb8     0x38  lv_disp.o [1]
+  .text              ro code  0x0000cdf0    0x496  lv_area.o [1]
+  .text              ro code  0x0000d286      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000d288    0x969  lv_draw_img.o [1]
+  .text              ro code  0x0000dbf2      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000dbf4    0x4f4  lv_txt.o [1]
+  .text              ro code  0x0000e0e8     0x18  lv_hal_indev.o [1]
+  .text              ro code  0x0000e100   0x1e6e  lv_draw_rect.o [1]
+  .text              ro code  0x0000ff6e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0000ff70    0xa68  lv_draw_mask.o [1]
+  .text              ro code  0x000109d8     0x68  memcmp.o [5]
+  .text              ro code  0x00010a40    0xd5d  lv_draw_label.o [1]
+  .text              ro code  0x0001179e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x000117a0    0x8c4  lv_draw_line.o [1]
+  .text              ro code  0x00012064     0x36  strlen.o [5]
+  .text              ro code  0x0001209a      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001209c     0x30  lv_hal_tick.o [1]
+  .text              ro code  0x000120cc     0x3a  ABImemset48.o [5]
+  .text              ro code  0x00012106      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00012108    0x154  lv_math.o [1]
+  .text              ro code  0x0001225c     0x4c  strcpy.o [5]
+  .text              ro code  0x000122a8     0x4a  strcmp.o [5]
+  .text              ro code  0x000122f2      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x000122f4    0x580  lv_font_fmt_txt.o [1]
+  .text              ro code  0x00012874    0x7bc  lv_img_buf.o [1]
+  .text              ro code  0x00013030    0xd09  lv_draw_blend.o [1]
+  .text              ro code  0x00013d3a     0x20  lv_font.o [1]
+  .text              ro code  0x00013d5a     0x46  lv_utils.o [1]
+  .text              ro code  0x00013da0    0xf96  xprintffull.o [3]
+  .text              ro code  0x00014d36      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00014d38     0xb4  xlocale_c.o [3]
+  .text              ro code  0x00014dec     0x16  strchr.o [5]
+  .text              ro code  0x00014e02      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00014e04     0x40  xfail_s.o [3]
+  .text              ro code  0x00014e44     0x58  memchr.o [5]
+  .text              ro code  0x00014e9c      0xa  xmbcurmax.o [3]
+  .text              ro code  0x00014ea6      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00014ea8     0xa6  ABImemcpy.o [5]
+  .text              ro code  0x00014f4e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00014f50    0x22e  I64DivMod.o [5]
+  .text              ro code  0x0001517e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015180    0x1a2  DblMul.o [4]
+  .text              ro code  0x00015322      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015324     0x70  frexp.o [4]
+  .text              ro code  0x00015394     0x2e  DblCmpLe.o [4]
+  .text              ro code  0x000153c2      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x000153c4     0x2e  DblCmpGe.o [4]
+  .text              ro code  0x000153f2      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x000153f4    0x13a  ldexp.o [4]
+  .text              ro code  0x0001552e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015530     0x3a  DblToS32.o [4]
+  .text              ro code  0x0001556a      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001556c     0x22  S32ToDbl.o [4]
+  .text              ro code  0x0001558e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015590     0xe2  DblSub.o [4]
+  .text              ro code  0x00015672      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015674    0x246  DblDiv.o [4]
+  .text              ro code  0x000158ba      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x000158bc     0x28  DblToU32.o [4]
+  .text              ro code  0x000158e4     0x1a  U32ToDbl.o [4]
+  .text              ro code  0x000158fe      0x6  abort.o [3]
+  .text              ro code  0x00015904      0x2  I64DivZer.o [5]
+  .text              ro code  0x00015906      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00015908    0x168  DblAdd.o [4]
+  .text              ro code  0x00015a70      0xc  XXexit.o [5]
+  .text              ro code  0x00015a7c    0xb00  lv_img.o [1]
+  .text              ro code  0x0001657c    0x8dc  lv_label.o [1]
+  .text              ro code  0x00016e58    0x5fc  nrfx_twim.o [1]
+  .text              ro code  0x00017454     0x50  nrfx_prs.o [1]
+  .text              ro code  0x000174a4     0x24  app_util_platform.o [1]
+  .text              ro code  0x000174c8    0x570  nrf_log_frontend.o [1]
+  .text              ro code  0x00017a38    0x154  nrf_memobj.o [1]
+  .text              ro code  0x00017b8c     0x12  nrf_ringbuf.o [1]
+  .text              ro code  0x00017b9e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00017ba0     0x80  nrf_atomic.o [1]
+  .text              ro code  0x00017c20     0x96  nrf_balloc.o [1]
+  .text              ro code  0x00017cb6      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x00017cb8    0x530  nrfx_uart.o [1]
+  .text              ro code  0x000181e8    0x4f4  nrfx_uarte.o [1]
+  .rodata            const    0x000186dc    0x388  user_lvgl_config.o [1]
+  .text              ro code  0x00018a64    0x33c  nrf_fprintf_format.o [1]
+  .text              ro code  0x00018da0     0x40  nrf_fprintf.o [1]
+  .text              ro code  0x00018de0    0x31c  app_timer2.o [1]
+  .text              ro code  0x00019100    0x2c8  drv_rtc.o [1]
+  .text              ro code  0x000193c8     0x48  nrf_sortlist.o [1]
+  .text              ro code  0x00019410    0x104  nrf_atfifo.o [1]
+  .text              ro code  0x00019514    0x22c  system_nrf52.o [1]
+  .text              ro code  0x00019740    0x214  nrf_log_str_formatter.o [1]
+  .text              ro code  0x00019954     0x14  isalpha.o [3]
+  .text              ro code  0x00019968     0x14  ispunct.o [3]
+  .text              ro code  0x00019980    0x1c0  oled_ssd1309.o [1]
+  .text              ro code  0x00019b40     0xe4  i2c_driver.o [1]
+  .text              ro code  0x00019c30    0x128  nrf_drv_twi.o [1]
+  .text              ro code  0x00019d58    0x178  SEGGER_RTT.o [1]
+  .text              ro code  0x00019ed0    0x170  user_lvgl_config.o [1]
+  .text              ro code  0x0001a040     0x1e  app_error.o [1]
+  .text              ro code  0x0001a05e      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a060     0x40  sprintf.o [3]
+  .text              ro code  0x0001a0a0     0x6c  app_error_weak.o [1]
+  .text              ro code  0x0001a10c     0xf0  nrf_log_backend_uart.o [1]
+  .text              ro code  0x0001a1fc     0x8c  nrf_drv_uart.o [1]
+  .text              ro code  0x0001a288     0xcc  nrf_log_backend_serial.o [1]
+  .text              ro code  0x0001a360     0xe8  main.o [1]
+  .text              ro code  0x0001a448     0x34  nrf_log_default_backends.o [1]
+  .text              ro code  0x0001a47c     0x38  timer_service.o [1]
+  .text              ro code  0x0001a4c0     0x88  nrf_log_backend_rtt.o [1]
+  .rodata            const    0x0001a548     0x58  nrf_log_str_formatter.o [1]
+  .text              ro code  0x0001a5a0     0x40  zero_init3.o [5]
+  log_const_data              0x0001a5e0     0x38  <Block>
+    log_const_data   const    0x0001a5e0      0x8  app_timer2.o [1]
+    log_const_data   const    0x0001a5e8      0x8  nrf_log_frontend.o [1]
+    log_const_data   const    0x0001a5f0      0x8  nrf_sortlist.o [1]
+    log_const_data   const    0x0001a5f8      0x8  nrfx_prs.o [1]
+    log_const_data   const    0x0001a600      0x8  nrfx_twim.o [1]
+    log_const_data   const    0x0001a608      0x8  nrfx_uart.o [1]
+    log_const_data   const    0x0001a610      0x8  nrfx_uarte.o [1]
+  .text              ro code  0x0001a618     0x28  data_init.o [5]
+  .rodata            const    0x0001a640     0x24  nrf_log_default_backends.o [1]
+  .text              ro code  0x0001a664     0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x0001a688     0x20  - Linker created -
+  .text              ro code  0x0001a6a8      0x2  iar_startup_nrf52.o [1]
+  log_backends       const    0x0001a6ac     0x20  nrf_log_default_backends.o [1]
+  .text              ro code  0x0001a6cc     0x1e  cmain.o [5]
+  .text              ro code  0x0001a6ea      0x4  exit.o [3]
+  .text              ro code  0x0001a6ee      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a6f0      0xa  cexit.o [5]
+  .text              ro code  0x0001a6fa      0x2  iar_startup_nrf52.o [1]
+  .rodata            const    0x0001a6fc     0x1c  app_error_weak.o [1]
+  nrf_balloc         const    0x0001a718     0x14  nrf_log_frontend.o [1]
+  .text              ro code  0x0001a72c     0x10  iar_startup_nrf52.o [1]
+  .rodata            const    0x0001a73c      0xc  app_timer2.o [1]
+  .rodata            const    0x0001a748      0xc  nrf_log_backend_rtt.o [1]
+  .rodata            const    0x0001a754      0xc  nrf_log_backend_uart.o [1]
+  .rodata            const    0x0001a760      0xc  nrf_sortlist.o [1]
+  .text              ro code  0x0001a76c      0xc  cstartup_M.o [5]
+  .rodata            const    0x0001a778      0x8  nrfx_twim.o [1]
+  .rodata            const    0x0001a780      0x8  nrfx_uart.o [1]
+  .rodata            const    0x0001a788      0x8  nrfx_uarte.o [1]
+  .rodata            const    0x0001a790      0x6  xlocale_c.o [3]
+  .text              ro code  0x0001a796      0x2  iar_startup_nrf52.o [1]
+  .rodata            const    0x0001a798      0x4  nrf_log_frontend.o [1]
+  .rodata            const    0x0001a79c      0x4  nrfx_prs.o [1]
+  .text              ro code  0x0001a7a0      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7a2      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7a4      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7a6      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7a8      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7aa      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7ac      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7ae      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7b0      0x2  iar_startup_nrf52.o [1]
+  .text              ro code  0x0001a7b2      0x2  iar_startup_nrf52.o [1]
+  .rodata            const    0x0001a7b4      0x0  zero_init3.o [5]
+  .rodata            const    0x0001a7b4      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0001a7b4     0xd1  <for P2-1>
+                            - 0x0001a885  0x1a685
+
+"P2", part 1 of 3:                          0x1c8
+  P2-1                        0x20000000    0x1c8  <Init block>
+    .data            inited   0x20000000     0x8c  app_timer2.o [1]
+    .data            inited   0x2000008c     0x1c  lv_font_montserrat_14.o [1]
+    .data            inited   0x200000a8     0x14  lv_font_montserrat_14.o [1]
+    .data            inited   0x200000bc     0x10  lv_mem.o [1]
+    .data            inited   0x200000cc      0x8  lv_txt.o [1]
+    .data            inited   0x200000d4      0x4  lv_txt.o [1]
+    .data            inited   0x200000d8      0x4  lv_txt.o [1]
+    .data            inited   0x200000dc      0x4  lv_txt.o [1]
+    .data            inited   0x200000e0      0x4  lv_txt.o [1]
+    .data            inited   0x200000e4     0x18  nrf_log_backend_uart.o [1]
+    .data            inited   0x200000fc     0x10  nrf_log_default_backends.o [1]
+    .data            inited   0x2000010c     0x38  nrf_log_str_formatter.o [1]
+    .data            inited   0x20000144      0x4  system_nrf52.o [1]
+    .data            inited   0x20000148     0x38  xlocale_c.o [3]
+    .data            inited   0x20000180     0x48  xlocale_c.o [3]
+                            - 0x200001c8    0x1c8
+
+"P2", part 2 of 3:                         0xadfc
+  .bss               zero     0x200001c8   0x8010  lv_mem.o [1]
+  .bss               zero     0x200081d8   0x2088  user_lvgl_config.o [1]
+  .bss               zero     0x2000a260    0x420  nrf_log_frontend.o [1]
+  .bss               zero     0x2000a680    0x288  SEGGER_RTT.o [1]
+  .bss               zero     0x2000a908    0x188  lv_gc.o [1]
+  .bss               zero     0x2000aa90    0x108  lv_draw_label.o [1]
+  .bss               zero     0x2000ab98     0xc0  nrf_log_frontend.o [1]
+  .bss               zero     0x2000ac58     0x80  lv_draw_blend.o [1]
+  .bss               zero     0x2000acd8     0x80  nrf_log_frontend.o [1]
+  .bss               zero     0x2000ad58     0x68  nrfx_twim.o [1]
+  .bss               zero     0x2000adc0     0x40  nrf_log_backend_rtt.o [1]
+  .bss               zero     0x2000ae00     0x40  nrf_log_backend_uart.o [1]
+  .bss               zero     0x2000ae40     0x2c  lv_theme_material.o [1]
+  .bss               zero     0x2000ae6c     0x2c  nrfx_uart.o [1]
+  .bss               zero     0x2000ae98     0x24  nrfx_uarte.o [1]
+  .bss               zero     0x2000aebc      0xc  drv_rtc.o [1]
+  .bss               zero     0x2000aec8     0x20  timer_service.o [1]
+  .bss               zero     0x2000aee8     0x18  nrf_log_frontend.o [1]
+  .bss               zero     0x2000af00     0x10  lv_mem.o [1]
+  .bss               zero     0x2000af10     0x10  lv_mem.o [1]
+  .bss               zero     0x2000af20     0x10  lv_task.o [1]
+  .bss               zero     0x2000af30     0x10  nrf_drv_twi.o [1]
+  .bss               zero     0x2000af40      0xc  lv_anim.o [1]
+  .bss               zero     0x2000af4c      0xc  lv_font_fmt_txt.o [1]
+  .bss               zero     0x2000af58      0xc  nrf_drv_uart.o [1]
+  .bss               zero     0x2000af64      0x8  lv_hal_tick.o [1]
+  .bss               zero     0x2000af6c      0x8  lv_indev.o [1]
+  .bss               zero     0x2000af74      0x8  lv_obj.o [1]
+  .bss               zero     0x2000af7c      0x8  lv_refr.o [1]
+  .bss               zero     0x2000af84      0x8  nrf_log_frontend.o [1]
+  .bss               zero     0x2000af8c      0x8  nrf_log_frontend.o [1]
+  .bss               zero     0x2000af94      0x8  nrfx_prs.o [1]
+  .bss               zero     0x2000af9c      0x8  user_lvgl_config.o [1]
+  .bss               zero     0x2000afa4      0x4  app_timer2.o [1]
+  .bss               zero     0x2000afa8      0x4  app_util_platform.o [1]
+  .bss               zero     0x2000afac      0x4  lv_hal_disp.o [1]
+  .bss               zero     0x2000afb0      0x4  lv_img.o [1]
+  .bss               zero     0x2000afb4      0x4  lv_theme.o [1]
+  .bss               zero     0x2000afb8      0x4  xfail_s.o [3]
+  .bss               zero     0x2000afbc      0x2  i2c_driver.o [1]
+  .bss               zero     0x2000afbe      0x2  lv_img_cache.o [1]
+  .bss               zero     0x2000afc0      0x1  lv_obj.o [1]
+  .bss               zero     0x2000afc1      0x1  nrf_log_backend_rtt.o [1]
+                            - 0x2000afc2   0xadfa
+
+"P2", part 3 of 3:                         0x2000
+  CSTACK                      0x2000afc8   0x2000  <Block>
+    CSTACK           uninit   0x2000afc8   0x2000  <Block tail>
+                            - 0x2000cfc8   0x2000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xadfa:
+          0x200001c8  0xadfa
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xd1 (45% of destination):
+          0x0001a7b4    0xd1
+    1 destination range, total size 0x1c8:
+          0x20000000   0x1c8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                      ro code  ro data  rw data
+    ------                      -------  -------  -------
+D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build: [1]
+    SEGGER_RTT.o                    376               648
+    app_error.o                      30
+    app_error_weak.o                108       28
+    app_timer2.o                    796       84      144
+    app_util_platform.o              36                 4
+    drv_rtc.o                       712                12
+    i2c_driver.o                    228                 2
+    iar_startup_nrf52.o             612
+    lv_anim.o                       840                12
+    lv_area.o                     1 174
+    lv_color.o                      189
+    lv_debug.o                      104
+    lv_disp.o                        56
+    lv_draw_blend.o               3 337               128
+    lv_draw_img.o                 2 409
+    lv_draw_label.o               3 421               264
+    lv_draw_line.o                2 244
+    lv_draw_mask.o                2 664
+    lv_draw_rect.o                7 790
+    lv_font.o                        32
+    lv_font_fmt_txt.o             1 408                12
+    lv_font_montserrat_14.o               13 346       48
+    lv_fs.o                         440
+    lv_gc.o                                           392
+    lv_group.o                      628
+    lv_hal_disp.o                   637                 4
+    lv_hal_indev.o                   24
+    lv_hal_tick.o                    48                 8
+    lv_img.o                      2 816                 4
+    lv_img_buf.o                  1 980
+    lv_img_cache.o                  468                 2
+    lv_img_decoder.o              1 964
+    lv_indev.o                      172                 8
+    lv_label.o                    2 268
+    lv_ll.o                         586
+    lv_math.o                       340
+    lv_mem.o                      1 556        7   32 832
+    lv_obj.o                     11 708                 9
+    lv_refr.o                     2 856                 8
+    lv_style.o                    2 280
+    lv_task.o                       724                16
+    lv_theme.o                      348                 4
+    lv_theme_material.o          13 041                44
+    lv_txt.o                      1 268       11       24
+    lv_utils.o                       70
+    main.o                          232
+    nrf_atfifo.o                    260
+    nrf_atomic.o                    128
+    nrf_balloc.o                    150
+    nrf_drv_twi.o                   296                16
+    nrf_drv_uart.o                  140                12
+    nrf_fprintf.o                    64
+    nrf_fprintf_format.o            828
+    nrf_log_backend_rtt.o           136       12       65
+    nrf_log_backend_serial.o        204
+    nrf_log_backend_uart.o          240       23       88
+    nrf_log_default_backends.o       52       75       16
+    nrf_log_frontend.o            1 392       32    1 416
+    nrf_log_str_formatter.o         532      114       56
+    nrf_memobj.o                    340
+    nrf_ringbuf.o                    18
+    nrf_sortlist.o                   72       20
+    nrfx_prs.o                       80       12        8
+    nrfx_twim.o                   1 532       16      104
+    nrfx_uart.o                   1 328       16       44
+    nrfx_uarte.o                  1 268       16       36
+    oled_ssd1309.o                  448
+    system_nrf52.o                  556        2        4
+    timer_service.o                  56                32
+    user_lvgl_config.o              368      904    8 336
+    -----------------------------------------------------
+    Total:                       85 508   14 718   44 862
+
+command line: [2]
+    -----------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                           6
+    exit.o                            4
+    isalpha.o                        20
+    ispunct.o                        20
+    sprintf.o                        64
+    xencoding_8859_1.o               30
+    xfail_s.o                        64                 4
+    xlocale_c.o                     180       65      128
+    xmbcurmax.o                      10
+    xprintffull.o                 3 990
+    xsprout.o                        10
+    -----------------------------------------------------
+    Total:                        4 398       65      132
+
+m7M_tls.a: [4]
+    DblAdd.o                        360
+    DblCmpGe.o                       46
+    DblCmpLe.o                       46
+    DblDiv.o                        582
+    DblMul.o                        418
+    DblSub.o                        226
+    DblToS32.o                       58
+    DblToU32.o                       40
+    S32ToDbl.o                       34
+    U32ToDbl.o                       26
+    fpinit_M.o                       34
+    frexp.o                         112
+    ldexp.o                         314
+    -----------------------------------------------------
+    Total:                        2 296
+
+rt7M_tl.a: [5]
+    ABImemclr.o                       6
+    ABImemclr4.o                      6
+    ABImemcpy.o                     166
+    ABImemset.o                     102
+    ABImemset48.o                    58
+    I64DivMod.o                     558
+    I64DivZer.o                       2
+    XXexit.o                         12
+    cexit.o                          10
+    cmain.o                          30
+    cstartup_M.o                     12
+    data_init.o                      40
+    lz77_init_single.o              122
+    memchr.o                         88
+    memcmp.o                        104
+    strchr.o                         22
+    strcmp.o                         74
+    strcpy.o                         76
+    strlen.o                         54
+    zero_init3.o                     64
+    -----------------------------------------------------
+    Total:                        1 606
+
+    Gaps                             50        4
+    Linker created                            32    8 192
+---------------------------------------------------------
+    Grand Total:                 93 858   14 819   53 186
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0001a688           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0001a6a8           --   Gb  - Linker created -
+?main                   0x0001a6cd          Code  Gb  cmain.o [5]
+CSTACK$$Base            0x2000afc8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000cfc8           --   Gb  - Linker created -
+CacheMore               0x00014d7b    0x24  Code  Lc  xlocale_c.o [3]
+LoadInt                 0x00013f8f    0x7a  Code  Lc  xprintffull.o [3]
+RTC1_IRQHandler         0x0001935b     0x8  Code  Gb  drv_rtc.o [1]
+Region$$Table$$Base     0x0001a688           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0001a6a8           --   Gb  - Linker created -
+SEGGER_RTT_Init         0x00019eb5     0x2  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_WriteNoLock  0x00019e65    0x4c  Code  Gb  SEGGER_RTT.o [1]
+SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                        0x00017417     0x6  Code  Gb  nrfx_twim.o [1]
+SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                        0x0001741d     0x8  Code  Gb  nrfx_twim.o [1]
+SystemCoreClock         0x20000144     0x4  Data  Gb  system_nrf52.o [1]
+SystemInit              0x00019515   0x1d0  Code  Gb  system_nrf52.o [1]
+UARTE0_UART0_IRQHandler
+                        0x00017455     0x6  Code  Gb  nrfx_prs.o [1]
+_DoInit                 0x00019d59    0x52  Code  Lc  SEGGER_RTT.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x00007331     0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Wctomb
+                        0x0000731f    0x12  Code  Gb  xencoding_8859_1.o [3]
+_GenldFull              0x00014a11   0x274  Code  Lc  xprintffull.o [3]
+_GetAvailWriteSpace     0x00019e39    0x1a  Code  Lc  SEGGER_RTT.o [1]
+_LdtobFull              0x000145e5   0x3fe  Code  Lc  xprintffull.o [3]
+_LitobFull              0x0001448d   0x112  Code  Lc  xprintffull.o [3]
+_LocaleC_isalpha        0x00014d3f     0xc  Code  Gb  xlocale_c.o [3]
+_LocaleC_islower        0x00014d39     0x4  Code  Gb  xlocale_c.o [3]
+_LocaleC_ispunct        0x00014d55    0x22  Code  Gb  xlocale_c.o [3]
+_LocaleC_isupper        0x00014d3d     0x2  Code  Gb  xlocale_c.o [3]
+_Locale_lconv           0x20000148    0x38  Data  Lc  xlocale_c.o [3]
+_NRFX_IRQ_PENDING_CLEAR
+                        0x00016e59    0x18  Code  Lc  nrfx_twim.o [1]
+_PrintfFull             0x00013da1   0x1d6  Code  Gb  xprintffull.o [3]
+_PutcharsFull           0x00014c85    0x2e  Code  Lc  xprintffull.o [3]
+_PutfldFull             0x00014009   0x2d0  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x000143cf    0xbe  Code  Lc  xprintffull.o [3]
+_PuttxtFull             0x000142d9    0xf6  Code  Lc  xprintffull.o [3]
+_SEGGER_RTT             0x2000a680    0x78  Data  Gb  SEGGER_RTT.o [1]
+_SProut                 0x000075bb     0xa  Code  Gb  xsprout.o [3]
+_WriteBlocking          0x00019dab    0x54  Code  Lc  SEGGER_RTT.o [1]
+_WriteNoCheck           0x00019dff    0x3a  Code  Lc  SEGGER_RTT.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000ffff          Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000          Data  Gb  command line/config [2]
+__Vectors               0x00000000           --   Gb  iar_startup_nrf52.o [1]
+__Vectors_End           0x00000200          Data  Gb  iar_startup_nrf52.o [1]
+__Vectors_Size {Abs}    0x00000200           --   Gb  iar_startup_nrf52.o [1]
+__aeabi_cdcmple         0x00015395          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x000153c5          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x00015531          Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x000158bd          Code  Gb  DblToU32.o [4]
+__aeabi_ddiv            0x00015675          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00015181          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00015591          Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x0001556d          Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x00015905          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr          0x0000af8d          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x0000af85          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy          0x00014ea9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x00014ec9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x00014ec9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x0000af1d          Code  Gb  ABImemset.o [5]
+__aeabi_memset4         0x000120cd          Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x000120cd          Code  Gb  ABImemset48.o [5]
+__aeabi_ui2d            0x000158e5          Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x00014f51          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0001a6cd          Code  Gb  cmain.o [5]
+__exit                  0x00015a71          Code  Gb  XXexit.o [5]
+__iar_Fail_s            0x00014e05    0x1c  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x00014e9d     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x00014e45          Code  Gb  memchr.o [5]
+__iar_Memset            0x0000af1d          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x000120d5          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x000120d5          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x0000af25          Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x00014ded          Code  Gb  strchr.o [5]
+__iar_dadd              0x000155a1          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0001a619    0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00015909          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x0001591b          Code  Gb  DblAdd.o [4]
+__iar_frexp             0x00015331          Code  Gb  frexp.o [4]
+__iar_frexpl            0x00015331          Code  Gb  frexp.o [4]
+__iar_globLocale        0x20000180    0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x00014d77     0x4  Code  Gb  xlocale_c.o [3]
+__iar_init_vfp          0x0001a665          Code  Gb  fpinit_M.o [4]
+__iar_ldexp64           0x000153f5          Code  Gb  ldexp.o [4]
+__iar_lz77_init_single3
+                        0x000068ff    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0001a76d          Code  Gb  cstartup_M.o [5]
+__iar_scalbln64         0x000153f5          Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x000153f5          Code  Gb  ldexp.o [4]
+__iar_softfp___iar_frexp64
+                        0x00015325          Code  Gb  frexp.o [4]
+__iar_softfp_frexp      0x00015325          Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x00015325          Code  Gb  frexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x0001a5a1    0x40  Code  Gb  zero_init3.o [5]
+__vector_table          0x00000000          Data  Gb  iar_startup_nrf52.o [1]
+_acDownBuffer           0x2000a8f8    0x10  Data  Lc  SEGGER_RTT.o [1]
+_acUpBuffer             0x2000a6f8   0x200  Data  Lc  SEGGER_RTT.o [1]
+_call_main              0x0001a6d9          Code  Gb  cmain.o [5]
+_exit                   0x0001a6f1          Code  Gb  cexit.o [5]
+_gLocale_mblen          0x00014dd7     0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x00014d9f    0x34  Code  Gb  xlocale_c.o [3]
+_gLocale_wctomb         0x00014ddb     0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x00014dd3     0x4  Code  Gb  xlocale_c.o [3]
+_lv_anim_core_init      0x0000b14d    0x2a  Code  Gb  lv_anim.o [1]
+_lv_anim_ll             0x2000a944     0xc  Data  Gb  lv_gc.o [1]
+_lv_anim_task           0x2000af48     0x4  Data  Lc  lv_anim.o [1]
+_lv_area_align          0x0000d0c9    0xee  Code  Gb  lv_area.o [1]
+_lv_area_intersect      0x0000ce37    0x48  Code  Gb  lv_area.o [1]
+_lv_area_is_in          0x0000d02d    0x8a  Code  Gb  lv_area.o [1]
+_lv_area_is_on          0x0000cff5    0x38  Code  Gb  lv_area.o [1]
+_lv_area_is_point_on    0x0000ced5    0xfe  Code  Gb  lv_area.o [1]
+_lv_area_join           0x0000ce7f    0x2c  Code  Gb  lv_area.o [1]
+_lv_blend_fill          0x00013059    0xce  Code  Gb  lv_draw_blend.o [1]
+_lv_blend_map           0x00013137    0xd0  Code  Gb  lv_draw_blend.o [1]
+_lv_bpp1_opa_table      0x0001167c     0x2  Data  Gb  lv_draw_label.o [1]
+_lv_bpp2_opa_table      0x00011680     0x4  Data  Gb  lv_draw_label.o [1]
+_lv_bpp4_opa_table      0x00011684    0x10  Data  Gb  lv_draw_label.o [1]
+_lv_bpp8_opa_table      0x00011694   0x100  Data  Gb  lv_draw_label.o [1]
+_lv_disp_ll             0x2000a914     0xc  Data  Gb  lv_gc.o [1]
+_lv_disp_refr_task      0x0000c37d   0x14e  Code  Gb  lv_refr.o [1]
+_lv_draw_mask_list      0x2000a9fc    0x80  Data  Gb  lv_gc.o [1]
+_lv_drv_ll              0x2000a92c     0xc  Data  Gb  lv_gc.o [1]
+_lv_file_ll             0x2000a938     0xc  Data  Gb  lv_gc.o [1]
+_lv_font_clean_up_fmt_txt
+                        0x00012437    0x14  Code  Gb  lv_font_fmt_txt.o [1]
+_lv_font_decompr_buf    0x2000aa8c     0x4  Data  Gb  lv_gc.o [1]
+_lv_fs_init             0x0000af95     0xa  Code  Gb  lv_fs.o [1]
+_lv_group_init          0x0000b495     0xa  Code  Gb  lv_group.o [1]
+_lv_group_ll            0x2000a950     0xc  Data  Gb  lv_gc.o [1]
+_lv_img_buf_get_transformed_area
+                        0x00012b67   0x204  Code  Gb  lv_img_buf.o [1]
+_lv_img_buf_transform   0x0000d2b1   0x146  Code  Lc  lv_draw_img.o [1]
+_lv_img_buf_transform_anti_alias
+                        0x00012d6b   0x28c  Code  Gb  lv_img_buf.o [1]
+_lv_img_buf_transform_init
+                        0x00012a5d   0x10a  Code  Gb  lv_img_buf.o [1]
+_lv_img_cache_array     0x2000a974     0x4  Data  Gb  lv_gc.o [1]
+_lv_img_cache_open      0x0000c0bd    0xec  Code  Gb  lv_img_cache.o [1]
+_lv_img_decoder_init    0x0000b925    0x3a  Code  Gb  lv_img_decoder.o [1]
+_lv_img_defoder_ll      0x2000a95c     0xc  Data  Gb  lv_gc.o [1]
+_lv_indev_init          0x0000b865     0x6  Code  Gb  lv_indev.o [1]
+_lv_indev_ll            0x2000a920     0xc  Data  Gb  lv_gc.o [1]
+_lv_inv_area            0x0000c2af    0xc6  Code  Gb  lv_refr.o [1]
+_lv_ll_chg_list         0x0000ab41    0x50  Code  Gb  lv_ll.o [1]
+_lv_ll_get_head         0x0000ab9d     0xa  Code  Gb  lv_ll.o [1]
+_lv_ll_get_next         0x0000abb1     0xa  Code  Gb  lv_ll.o [1]
+_lv_ll_get_prev         0x0000abbb     0x8  Code  Gb  lv_ll.o [1]
+_lv_ll_get_tail         0x0000aba7     0xa  Code  Gb  lv_ll.o [1]
+_lv_ll_init             0x0000a9fd    0x10  Code  Gb  lv_ll.o [1]
+_lv_ll_ins_head         0x0000aa0d    0x2c  Code  Gb  lv_ll.o [1]
+_lv_ll_ins_prev         0x0000aa3f    0x58  Code  Gb  lv_ll.o [1]
+_lv_ll_ins_tail         0x0000aa97    0x2c  Code  Gb  lv_ll.o [1]
+_lv_ll_is_empty         0x0000ac1f    0x16  Code  Gb  lv_ll.o [1]
+_lv_ll_move_before      0x0000abc3    0x4c  Code  Gb  lv_ll.o [1]
+_lv_ll_remove           0x0000aad3    0x6e  Code  Gb  lv_ll.o [1]
+_lv_map                 0x00012181    0x22  Code  Gb  lv_math.o [1]
+_lv_mem_buf             0x2000a97c    0x80  Data  Gb  lv_gc.o [1]
+_lv_mem_buf_free_all    0x00007857    0x3c  Code  Gb  lv_mem.o [1]
+_lv_mem_buf_get         0x00007739    0xe6  Code  Gb  lv_mem.o [1]
+_lv_mem_buf_release     0x0000781f    0x38  Code  Gb  lv_mem.o [1]
+_lv_mem_get_size        0x00007723    0x16  Code  Gb  lv_mem.o [1]
+_lv_mem_init            0x000075c5    0x12  Code  Gb  lv_mem.o [1]
+_lv_mem_init::work_mem_int
+                        0x200001d4  0x8000  Data  Lc  lv_mem.o [1]
+_lv_memcpy              0x00007893    0xa8  Code  Gb  lv_mem.o [1]
+_lv_memcpy_small        0x0000d289    0x16  Code  Lc  lv_draw_img.o [1]
+_lv_memcpy_small        0x0001288f    0x16  Code  Lc  lv_img_buf.o [1]
+_lv_memcpy_small        0x00007bd9    0x16  Code  Lc  lv_obj.o [1]
+_lv_memcpy_small        0x00006979    0x16  Code  Lc  lv_style.o [1]
+_lv_memset              0x000079cf    0x5a  Code  Gb  lv_mem.o [1]
+_lv_memset_00           0x00007a29    0x66  Code  Gb  lv_mem.o [1]
+_lv_memset_ff           0x00007a8f    0x52  Code  Gb  lv_mem.o [1]
+_lv_obj_disable_style_caching
+                        0x00008687    0x30  Code  Gb  lv_obj.o [1]
+_lv_obj_get_style_color
+                        0x00008d87    0x6e  Code  Gb  lv_obj.o [1]
+_lv_obj_get_style_int   0x00008c15   0x166  Code  Gb  lv_obj.o [1]
+_lv_obj_get_style_opa   0x00008dff    0xaa  Code  Gb  lv_obj.o [1]
+_lv_obj_get_style_ptr   0x00008edd    0xcc  Code  Gb  lv_obj.o [1]
+_lv_obj_style_trans_ll  0x2000a968     0xc  Data  Gb  lv_gc.o [1]
+_lv_refr_get_disp_refreshing
+                        0x0000c375     0x8  Code  Gb  lv_refr.o [1]
+_lv_sqrt                0x0001215d    0x24  Code  Gb  lv_math.o [1]
+_lv_style_get_color     0x00006e77     0xc  Code  Gb  lv_style.o [1]
+_lv_style_get_int       0x00006e4d    0x16  Code  Gb  lv_style.o [1]
+_lv_style_get_mem_size  0x00006c99    0x2e  Code  Gb  lv_style.o [1]
+_lv_style_get_opa       0x00006e63     0xe  Code  Gb  lv_style.o [1]
+_lv_style_get_ptr       0x00006ea5    0x16  Code  Gb  lv_style.o [1]
+_lv_style_list_add_style
+                        0x00006b1d    0x78  Code  Gb  lv_style.o [1]
+_lv_style_list_add_trans_style
+                        0x00006eeb    0x56  Code  Gb  lv_style.o [1]
+_lv_style_list_get_color
+                        0x00006fc3    0x5c  Code  Gb  lv_style.o [1]
+_lv_style_list_get_int  0x00006f53    0x70  Code  Gb  lv_style.o [1]
+_lv_style_list_get_opa  0x0000701f    0x5c  Code  Gb  lv_style.o [1]
+_lv_style_list_get_ptr  0x000070bb    0x66  Code  Gb  lv_style.o [1]
+_lv_style_list_get_transition_style
+                        0x00006ed9    0x12  Code  Gb  lv_style.o [1]
+_lv_style_list_remove_style
+                        0x00006b95    0x88  Code  Gb  lv_style.o [1]
+_lv_style_list_reset    0x00006c2b    0x5c  Code  Gb  lv_style.o [1]
+_lv_style_set_color     0x00006d19    0x3c  Code  Gb  lv_style.o [1]
+_lv_style_set_int       0x00006cc7    0x52  Code  Gb  lv_style.o [1]
+_lv_style_set_opa       0x00006d5f    0x3c  Code  Gb  lv_style.o [1]
+_lv_style_set_ptr       0x00006def    0x56  Code  Gb  lv_style.o [1]
+_lv_task_act            0x2000a978     0x4  Data  Gb  lv_gc.o [1]
+_lv_task_core_init      0x0000ac49    0x12  Code  Gb  lv_task.o [1]
+_lv_task_ll             0x2000a908     0xc  Data  Gb  lv_gc.o [1]
+_lv_theme_empty_styles  0x2000aa88     0x4  Data  Gb  lv_gc.o [1]
+_lv_theme_material_styles
+                        0x2000aa7c     0x4  Data  Gb  lv_gc.o [1]
+_lv_theme_mono_styles   0x2000aa84     0x4  Data  Gb  lv_gc.o [1]
+_lv_theme_template_styles
+                        0x2000aa80     0x4  Data  Gb  lv_gc.o [1]
+_lv_trigo_sin           0x00012109    0x54  Code  Gb  lv_math.o [1]
+_lv_txt_encoded_get_byte_id
+                        0x200000d8     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_get_char_id
+                        0x200000dc     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_next    0x200000d0     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_prev    0x200000d4     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_encoded_size    0x200000cc     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_get_encoded_length
+                        0x200000e0     0x4  Data  Gb  lv_txt.o [1]
+_lv_txt_get_next_line   0x0000ddd9    0xc8  Code  Gb  lv_txt.o [1]
+_lv_txt_get_size        0x0000dbf5    0xbc  Code  Gb  lv_txt.o [1]
+_lv_txt_get_width       0x0000dead    0x7e  Code  Gb  lv_txt.o [1]
+_lv_txt_is_cmd          0x0000df2b    0x32  Code  Gb  lv_txt.o [1]
+_lv_utils_bsearch       0x00013d5b    0x46  Code  Gb  lv_utils.o [1]
+_main                   0x0001a6e7          Code  Gb  cmain.o [5]
+abort                   0x000158ff     0x6  Code  Gb  abort.o [3]
+act_theme               0x2000afb4     0x4  Data  Lc  lv_theme.o [1]
+ancestor_signal         0x2000afb0     0x4  Data  Lc  lv_img.o [1]
+anim_list_changed       0x2000af40     0x1  Data  Lc  lv_anim.o [1]
+anim_mark_list_change   0x0000b453    0x20  Code  Lc  lv_anim.o [1]
+anim_ready_handler      0x0000b3af    0x9a  Code  Lc  lv_anim.o [1]
+anim_run_round          0x2000af41     0x1  Data  Lc  lv_anim.o [1]
+anim_task               0x0000b2f9    0xb6  Code  Lc  lv_anim.o [1]
+app_error_fault_handler
+                        0x0001a0a1    0x6c  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare  0x0001a041    0x1e  Code  Gb  app_error.o [1]
+app_timer_create        0x00019095    0x18  Code  Gb  app_timer2.o [1]
+app_timer_init          0x00019049    0x4c  Code  Gb  app_timer2.o [1]
+app_timer_start         0x000190ad    0x2e  Code  Gb  app_timer2.o [1]
+app_util_critical_region_enter
+                        0x000174b3     0x2  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x000174c1     0x2  Code  Gb  app_util_platform.o [1]
+app_util_enable_irq     0x000174a5     0xe  Code  Gb  app_util_platform.o [1]
+apply_config            0x00017d3f    0x7c  Code  Lc  nrfx_uart.o [1]
+apply_config            0x0001825d    0x7c  Code  Lc  nrfx_uarte.o [1]
+apply_theme             0x0000b72f    0x36  Code  Lc  lv_theme.o [1]
+arc_init                0x00004b15    0xcc  Code  Lc  lv_theme_material.o [1]
+bar_init                0x00004275   0x120  Code  Lc  lv_theme_material.o [1]
+basic_init              0x00003805   0x9a8  Code  Lc  lv_theme_material.o [1]
+bits_write              0x0001275d    0x5e  Code  Lc  lv_font_fmt_txt.o [1]
+blend_buf               0x2000ac58    0x80  Data  Lc  lv_draw_blend.o [1]
+buf1                    0x200081fc  0x2000  Data  Lc  user_lvgl_config.o [1]
+buf_prealloc            0x0001767d    0x70  Code  Lc  nrf_log_frontend.o [1]
+buffer_add              0x00018a65    0x2c  Code  Lc  nrf_fprintf_format.o [1]
+buffer_is_empty         0x00017759    0x12  Code  Gb  nrf_log_frontend.o [1]
+calendar_init           0x00004d61   0x416  Code  Lc  lv_theme_material.o [1]
+chart_init              0x00004bf7   0x152  Code  Lc  lv_theme_material.o [1]
+checkbox_init           0x00005361   0x1f4  Code  Lc  lv_theme_material.o [1]
+clear_styles            0x0000b769    0xee  Code  Lc  lv_theme.o [1]
+cmaps                   0x000028ec    0x28  Data  Lc  lv_font_montserrat_14.o [1]
+color_blend_true_color_additive
+                        0x00013c8d    0x2c  Code  Lc  lv_draw_blend.o [1]
+color_blend_true_color_subtractive
+                        0x00013cb9    0x4c  Code  Lc  lv_draw_blend.o [1]
+compare_func            0x00018e11    0x1a  Code  Lc  app_timer2.o [1]
+count_test              0x2000afa0     0x4  Data  Gb  user_lvgl_config.o [1]
+cpicker_init            0x000051c1   0x15e  Code  Lc  lv_theme_material.o [1]
+ddlist_init             0x00005d3f    0xa6  Code  Lc  lv_theme_material.o [1]
+decompress              0x000125df    0xfe  Code  Lc  lv_font_fmt_txt.o [1]
+decompress_line         0x000126dd    0x1c  Code  Lc  lv_font_fmt_txt.o [1]
+disp_buf                0x200081d8    0x24  Data  Lc  user_lvgl_config.o [1]
+disp_def                0x2000afac     0x4  Data  Lc  lv_hal_disp.o [1]
+disp_driver_flush       0x00019f8d     0x4  Code  Lc  user_lvgl_config.o [1]
+disp_driver_rounder     0x00019f91     0x4  Code  Lc  user_lvgl_config.o [1]
+disp_driver_set_px      0x00019f95    0x1a  Code  Lc  user_lvgl_config.o [1]
+disp_refr               0x2000af80     0x4  Data  Lc  lv_refr.o [1]
+draw_bg                 0x0000e1f3   0x442  Code  Lc  lv_draw_rect.o [1]
+draw_border             0x0000e673   0x2d0  Code  Lc  lv_draw_rect.o [1]
+draw_full_border        0x0000faff   0x428  Code  Lc  lv_draw_rect.o [1]
+draw_letter_normal      0x0001102d   0x264  Code  Lc  lv_draw_label.o [1]
+draw_letter_normal::opa_table
+                        0x2000aa94   0x100  Data  Lc  lv_draw_label.o [1]
+draw_letter_normal::prev_bpp
+                        0x2000ab94     0x4  Data  Lc  lv_draw_label.o [1]
+draw_letter_normal::prev_opa
+                        0x2000aa90     0x1  Data  Lc  lv_draw_label.o [1]
+draw_letter_subpx       0x000112b5   0x33e  Code  Lc  lv_draw_label.o [1]
+draw_line_hor           0x0001194d   0x18e  Code  Lc  lv_draw_line.o [1]
+draw_line_skew          0x00011cd5   0x336  Code  Lc  lv_draw_line.o [1]
+draw_line_skew::wcorr   0x00012040    0x24  Data  Lc  lv_draw_line.o [1]
+draw_line_ver           0x00011af9   0x170  Code  Lc  lv_draw_line.o [1]
+draw_outline            0x0000f727    0xb6  Code  Lc  lv_draw_rect.o [1]
+draw_pattern            0x0000f7dd   0x224  Code  Lc  lv_draw_rect.o [1]
+draw_shadow             0x0000e9a5   0x894  Code  Lc  lv_draw_rect.o [1]
+draw_value_str          0x0000fa23    0xdc  Code  Lc  lv_draw_rect.o [1]
+dropped_sat16_get       0x0001761f    0x12  Code  Lc  nrf_log_frontend.o [1]
+drv_rtc_compare_disable
+                        0x00019325     0xa  Code  Gb  drv_rtc.o [1]
+drv_rtc_compare_pending
+                        0x0001932f     0xa  Code  Gb  drv_rtc.o [1]
+drv_rtc_compare_set     0x000191cf    0x44  Code  Gb  drv_rtc.o [1]
+drv_rtc_counter_get     0x00019339     0x8  Code  Gb  drv_rtc.o [1]
+drv_rtc_init            0x0001912d    0x8e  Code  Gb  drv_rtc.o [1]
+drv_rtc_irq_trigger     0x00019341    0x1a  Code  Gb  drv_rtc.o [1]
+drv_rtc_overflow_enable
+                        0x00019319     0x6  Code  Gb  drv_rtc.o [1]
+drv_rtc_overflow_pending
+                        0x0001931f     0x6  Code  Gb  drv_rtc.o [1]
+drv_rtc_start           0x000191bd     0x8  Code  Gb  drv_rtc.o [1]
+drv_rtc_stop            0x000191c5     0xa  Code  Gb  drv_rtc.o [1]
+drv_rtc_windowed_compare_set
+                        0x00019241    0xd8  Code  Gb  drv_rtc.o [1]
+ent_get_next            0x00007ae1    0x24  Code  Lc  lv_mem.o [1]
+ent_trunc               0x00007b19    0x3a  Code  Lc  lv_mem.o [1]
+entry_cnt               0x2000afbe     0x2  Data  Lc  lv_img_cache.o [1]
+event_act_data          0x2000af78     0x4  Data  Lc  lv_obj.o [1]
+event_temp_data_head    0x2000af74     0x4  Data  Lc  lv_obj.o [1]
+evt_disable             0x00019221     0xc  Code  Lc  drv_rtc.o [1]
+evt_enable              0x00019213     0xe  Code  Lc  drv_rtc.o [1]
+evt_pending             0x0001922d    0x14  Code  Lc  drv_rtc.o [1]
+exit                    0x0001a6eb     0x4  Code  Gb  exit.o [3]
+fill_blended            0x00013635   0x11a  Code  Lc  lv_draw_blend.o [1]
+fill_normal             0x00013309   0x316  Code  Lc  lv_draw_blend.o [1]
+fill_set_px             0x0001321d    0xe6  Code  Lc  lv_draw_blend.o [1]
+focus_next_core         0x0000b60d    0xba  Code  Lc  lv_group.o [1]
+font_dsc                0x2000008c    0x1c  Data  Lc  lv_font_montserrat_14.o [1]
+gauge_init              0x00004829   0x29e  Code  Lc  lv_theme_material.o [1]
+get_alloc_local_style   0x00007199    0x4e  Code  Lc  lv_style.o [1]
+get_bits                0x000126f9    0x64  Code  Lc  lv_font_fmt_txt.o [1]
+get_glyph_dsc_id        0x0001244b    0xd8  Code  Lc  lv_font_fmt_txt.o [1]
+get_kern_value          0x00012523    0x80  Code  Lc  lv_font_fmt_txt.o [1]
+get_next_prop_index     0x00007241     0xc  Code  Lc  lv_style.o [1]
+get_now                 0x00018de1    0x30  Code  Lc  app_timer2.o [1]
+get_prop_size           0x00007225    0x1c  Code  Lc  lv_style.o [1]
+get_property_index      0x00007121    0x78  Code  Lc  lv_style.o [1]
+get_style_prop          0x000071fd    0x14  Code  Lc  lv_style.o [1]
+get_style_prop_attr     0x0000721b     0xa  Code  Lc  lv_style.o [1]
+get_style_prop_id       0x00007211     0xa  Code  Lc  lv_style.o [1]
+get_txt_coords          0x00016e07    0x4a  Code  Lc  lv_label.o [1]
+glyph_dsc               0x0000239c   0x4d8  Data  Lc  lv_font_montserrat_14.o [1]
+grad_get                0x0000e951    0x54  Code  Lc  lv_draw_rect.o [1]
+gylph_bitmap            0x00000200  0x219c  Data  Lc  lv_font_montserrat_14.o [1]
+hex_char_to_num         0x00011631    0x4a  Code  Lc  lv_draw_label.o [1]
+idle_last               0x2000af21     0x1  Data  Lc  lv_task.o [1]
+indev_act               0x2000af6c     0x4  Data  Lc  lv_indev.o [1]
+indev_obj_act           0x2000af70     0x4  Data  Lc  lv_indev.o [1]
+int_print               0x00018b31    0xa4  Code  Lc  nrf_fprintf_format.o [1]
+interrupts_disable      0x00017e23    0x30  Code  Lc  nrfx_uart.o [1]
+interrupts_disable      0x00018357    0x30  Code  Lc  nrfx_uarte.o [1]
+interrupts_enable       0x00017dbd    0x66  Code  Lc  nrfx_uart.o [1]
+interrupts_enable       0x000182d9    0x7e  Code  Lc  nrfx_uarte.o [1]
+invalid_packets_omit    0x00017567    0x3a  Code  Lc  nrf_log_frontend.o [1]
+invalidate_style_cache  0x0000a619    0xae  Code  Lc  lv_obj.o [1]
+isalpha                 0x00019955    0x14  Code  Gb  isalpha.o [3]
+ispunct                 0x00019969    0x14  Code  Gb  ispunct.o [3]
+kern_class_values       0x00002a4c   0xbb0  Data  Lc  lv_font_montserrat_14.o [1]
+kern_classes            0x000035fc    0x10  Data  Lc  lv_font_montserrat_14.o [1]
+kern_left_class_mapping
+                        0x00002914    0x9c  Data  Lc  lv_font_montserrat_14.o [1]
+kern_pair_16_compare    0x000125c9    0x16  Code  Lc  lv_font_fmt_txt.o [1]
+kern_pair_8_compare     0x000125b1    0x16  Code  Lc  lv_font_fmt_txt.o [1]
+kern_right_class_mapping
+                        0x000029b0    0x9c  Data  Lc  lv_font_montserrat_14.o [1]
+keyboard_init           0x0000557d   0x136  Code  Lc  lv_theme_material.o [1]
+last_task_run           0x2000af44     0x4  Data  Lc  lv_anim.o [1]
+ldexp                   0x000153f5          Code  Gb  ldexp.o [4]
+ldexpl                  0x000153f5          Code  Gb  ldexp.o [4]
+led_init                0x000043a7    0xb6  Code  Lc  lv_theme_material.o [1]
+line_mask_flat          0x00010279   0x138  Code  Lc  lv_draw_mask.o [1]
+line_mask_steep         0x000103bb   0x190  Code  Lc  lv_draw_mask.o [1]
+linemeter_init          0x000046f1   0x122  Code  Lc  lv_theme_material.o [1]
+list_init               0x00005899   0x432  Code  Lc  lv_theme_material.o [1]
+localeconv              0x00014ddf     0x4  Code  Gb  xlocale_c.o [3]
+log_backend_cb_rtt_log_backend
+                        0x200000fc     0x8  Data  Lc  nrf_log_default_backends.o [1]
+log_backend_cb_uart_log_backend
+                        0x20000104     0x8  Data  Lc  nrf_log_default_backends.o [1]
+log_const_data$$Base    0x0001a5e0           --   Gb  - Linker created -
+log_const_data$$Limit   0x0001a618           --   Gb  - Linker created -
+log_dynamic_data$$Base  0x00000000           --   Gb  - Linker created -
+log_mempool             0x0001a718    0x14  Data  Gb  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_cb
+                        0x2000af8c     0x8  Data  Lc  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_pool_mem
+                        0x2000ab98    0xc0  Data  Lc  nrf_log_frontend.o [1]
+log_mempool_nrf_balloc_pool_stack
+                        0x2000af84     0x8  Data  Lc  nrf_log_frontend.o [1]
+log_skip                0x000175a1    0x7e  Code  Lc  nrf_log_frontend.o [1]
+lv_anim_del             0x0000b23b    0x50  Code  Gb  lv_anim.o [1]
+lv_anim_get             0x0000b28b    0x28  Code  Gb  lv_anim.o [1]
+lv_anim_init            0x0000b177    0x40  Code  Gb  lv_anim.o [1]
+lv_anim_path_def        0x0000b48c     0x8  Data  Gb  lv_anim.o [1]
+lv_anim_path_linear     0x0000b2c9     0x8  Code  Gb  lv_anim.o [1]
+lv_anim_set_values      0x0001658b     0x8  Code  Lc  lv_label.o [1]
+lv_anim_set_values      0x00007c19     0x8  Code  Lc  lv_obj.o [1]
+lv_anim_speed_to_time   0x0000b2b3    0x16  Code  Gb  lv_anim.o [1]
+lv_anim_start           0x0000b1b7    0x84  Code  Gb  lv_anim.o [1]
+lv_area_copy            0x0000d29f     0x4  Code  Lc  lv_draw_img.o [1]
+lv_area_copy            0x0000ff71    0x10  Code  Lc  lv_draw_mask.o [1]
+lv_area_copy            0x0000e101    0x10  Code  Lc  lv_draw_rect.o [1]
+lv_area_copy            0x00007bef     0x4  Code  Lc  lv_obj.o [1]
+lv_area_copy            0x0000c291    0x10  Code  Lc  lv_refr.o [1]
+lv_area_get_height      0x0000cdf1     0xe  Code  Lc  lv_area.o [1]
+lv_area_get_height      0x0001304b     0xe  Code  Lc  lv_draw_blend.o [1]
+lv_area_get_height      0x0000d2a3     0xe  Code  Lc  lv_draw_img.o [1]
+lv_area_get_height      0x0000ff81     0xe  Code  Lc  lv_draw_mask.o [1]
+lv_area_get_height      0x0000e111     0xe  Code  Lc  lv_draw_rect.o [1]
+lv_area_get_height      0x0001657d     0xe  Code  Lc  lv_label.o [1]
+lv_area_get_height      0x00007bf3     0xe  Code  Lc  lv_obj.o [1]
+lv_area_get_height      0x0000c2a1     0xe  Code  Lc  lv_refr.o [1]
+lv_area_get_size        0x0000ce19    0x1e  Code  Gb  lv_area.o [1]
+lv_area_set             0x0000cdff    0x10  Code  Gb  lv_area.o [1]
+lv_area_set_height      0x0000ce0f     0xa  Code  Gb  lv_area.o [1]
+lv_color_darken         0x00007305     0x6  Code  Gb  lv_color.o [1]
+lv_color_fill           0x0000727b    0x82  Code  Gb  lv_color.o [1]
+lv_color_hex            0x00007c01    0x18  Code  Lc  lv_obj.o [1]
+lv_color_hex            0x0000363b     0xe  Code  Lc  lv_theme_material.o [1]
+lv_color_hex3           0x00003649    0x24  Code  Lc  lv_theme_material.o [1]
+lv_color_lighten        0x000072fd     0x8  Code  Gb  lv_color.o [1]
+lv_color_make           0x0000b911    0x14  Code  Lc  lv_img_decoder.o [1]
+lv_color_make           0x00003627    0x14  Code  Lc  lv_theme_material.o [1]
+lv_color_mix            0x00007261    0x1a  Code  Lc  lv_color.o [1]
+lv_color_mix            0x00013031    0x1a  Code  Lc  lv_draw_blend.o [1]
+lv_color_mix            0x00012875    0x1a  Code  Lc  lv_img_buf.o [1]
+lv_color_mix            0x0000360d    0x1a  Code  Lc  lv_theme_material.o [1]
+lv_debug_check_null     0x0000a995     0x6  Code  Gb  lv_debug.o [1]
+lv_debug_log_error      0x0000a99d    0x4a  Code  Gb  lv_debug.o [1]
+lv_debug_log_error::hex
+                        0x0000a9e8    0x14  Data  Lc  lv_debug.o [1]
+lv_disp_buf_init        0x0000737f    0x1c  Code  Gb  lv_hal_disp.o [1]
+lv_disp_drv_init        0x0000733d    0x42  Code  Gb  lv_hal_disp.o [1]
+lv_disp_drv_register    0x0000739d    0xf6  Code  Gb  lv_hal_disp.o [1]
+lv_disp_flush_ready     0x00007539     0xa  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_buf         0x00007557     0x4  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_default     0x00007493     0x6  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_dpi         0x000074e1    0x14  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_hor_res     0x00007499    0x1e  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_layer_sys   0x0000cde3     0xe  Code  Gb  lv_disp.o [1]
+lv_disp_get_layer_top   0x0000cdd5     0xe  Code  Gb  lv_disp.o [1]
+lv_disp_get_next        0x00007543    0x14  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_scr_act     0x0000cdb9     0xe  Code  Gb  lv_disp.o [1]
+lv_disp_get_scr_prev    0x0000cdc7     0xe  Code  Gb  lv_disp.o [1]
+lv_disp_get_size_category
+                        0x000074f5    0x44  Code  Gb  lv_hal_disp.o [1]
+lv_disp_get_ver_res     0x000074bd    0x1e  Code  Gb  lv_hal_disp.o [1]
+lv_disp_is_double_buf   0x0000755b    0x16  Code  Gb  lv_hal_disp.o [1]
+lv_disp_is_true_double_buf
+                        0x00007571    0x28  Code  Gb  lv_hal_disp.o [1]
+lv_draw_img             0x0000d41d    0x26  Code  Gb  lv_draw_img.o [1]
+lv_draw_img_dsc_init    0x0000d3f7    0x26  Code  Gb  lv_draw_img.o [1]
+lv_draw_label           0x00010a7b   0x46e  Code  Gb  lv_draw_label.o [1]
+lv_draw_label_dsc_init  0x00010a41    0x3a  Code  Gb  lv_draw_label.o [1]
+lv_draw_letter          0x00010f61    0xcc  Code  Lc  lv_draw_label.o [1]
+lv_draw_line            0x000117bd   0x182  Code  Gb  lv_draw_line.o [1]
+lv_draw_line_dsc_init   0x000117a1    0x1c  Code  Gb  lv_draw_line.o [1]
+lv_draw_map             0x0000d67b   0x4d8  Code  Lc  lv_draw_img.o [1]
+lv_draw_mask_add        0x0000ff8f    0x2c  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_apply      0x0000ffbb    0x3e  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_get_cnt    0x0001003f    0x1c  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_line       0x000101d1    0xa8  Code  Lc  lv_draw_mask.o [1]
+lv_draw_mask_line_points_init
+                        0x00010061   0x10e  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_radius     0x00010585   0x404  Code  Lc  lv_draw_mask.o [1]
+lv_draw_mask_radius_init
+                        0x0001016f    0x62  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_remove_custom
+                        0x00010017    0x28  Code  Gb  lv_draw_mask.o [1]
+lv_draw_mask_remove_id  0x0000fff9    0x1e  Code  Gb  lv_draw_mask.o [1]
+lv_draw_rect            0x0000e197    0x54  Code  Gb  lv_draw_rect.o [1]
+lv_draw_rect_dsc_init   0x0000e121    0x5a  Code  Gb  lv_draw_rect.o [1]
+lv_event_send           0x0000893b    0x28  Code  Gb  lv_obj.o [1]
+lv_event_send_func      0x00008975    0x8a  Code  Gb  lv_obj.o [1]
+lv_font_get_bitmap_fmt_txt
+                        0x000122f5    0xb6  Code  Gb  lv_font_fmt_txt.o [1]
+lv_font_get_glyph_bitmap
+                        0x00013d3b     0x4  Code  Gb  lv_font.o [1]
+lv_font_get_glyph_dsc   0x00013d3f     0x8  Code  Gb  lv_font.o [1]
+lv_font_get_glyph_dsc_fmt_txt
+                        0x000123ab    0x8c  Code  Gb  lv_font_fmt_txt.o [1]
+lv_font_get_glyph_width
+                        0x00013d47    0x14  Code  Gb  lv_font.o [1]
+lv_font_montserrat_14   0x200000a8    0x14  Data  Gb  lv_font_montserrat_14.o [1]
+lv_fs_close             0x0000b035    0x1a  Code  Gb  lv_fs.o [1]
+lv_fs_get_drv           0x0000b0cb    0x26  Code  Gb  lv_fs.o [1]
+lv_fs_get_ext           0x0000b0f1    0x22  Code  Gb  lv_fs.o [1]
+lv_fs_get_real_path     0x0000b123    0x16  Code  Lc  lv_fs.o [1]
+lv_fs_open              0x0000af9f    0x96  Code  Gb  lv_fs.o [1]
+lv_fs_read              0x0000b04f    0x26  Code  Gb  lv_fs.o [1]
+lv_fs_seek              0x0000b08d    0x1e  Code  Gb  lv_fs.o [1]
+lv_group_add_obj        0x0000b4a7    0x60  Code  Gb  lv_group.o [1]
+lv_group_get_editing    0x0000b5b5     0xc  Code  Gb  lv_group.o [1]
+lv_group_get_focused    0x0000b5a9     0xc  Code  Gb  lv_group.o [1]
+lv_group_refocus        0x0000b5c1    0x34  Code  Lc  lv_group.o [1]
+lv_group_remove_obj     0x0000b513    0x7a  Code  Gb  lv_group.o [1]
+lv_img_buf_get_px_alpha
+                        0x00012991    0xb0  Code  Gb  lv_img_buf.o [1]
+lv_img_buf_get_px_alpha{1}{3}{4}{6}{7}{8}::opa_table
+                        0x0001301c     0x4  Data  Lc  lv_img_buf.o [1]
+lv_img_buf_get_px_alpha{1}{3}{4}{6}{7}{9}{10}{11}::opa_table
+                        0x00013020    0x10  Data  Lc  lv_img_buf.o [1]
+lv_img_buf_get_px_color
+                        0x000128a5    0xec  Code  Gb  lv_img_buf.o [1]
+lv_img_cache_invalidate_src
+                        0x0000c1f5    0x46  Code  Gb  lv_img_cache.o [1]
+lv_img_cache_match      0x0000c249    0x36  Code  Lc  lv_img_cache.o [1]
+lv_img_cache_set_size   0x0000c1a9    0x4c  Code  Gb  lv_img_cache.o [1]
+lv_img_cf_get_px_size   0x0000d445    0x2e  Code  Gb  lv_draw_img.o [1]
+lv_img_cf_has_alpha     0x0000d485    0x16  Code  Gb  lv_draw_img.o [1]
+lv_img_cf_is_chroma_keyed
+                        0x0000d473    0x12  Code  Gb  lv_draw_img.o [1]
+lv_img_create           0x00015ab7   0x138  Code  Gb  lv_img.o [1]
+lv_img_decoder_built_in_close
+                        0x0000bde9    0x30  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_info
+                        0x0000bad5    0xa8  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_alpha
+                        0x0000be19   0x14c  Code  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_alpha::alpha1_opa_table
+                        0x0000c0a4     0x2  Data  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_alpha::alpha2_opa_table
+                        0x0000c0a8     0x4  Data  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_alpha::alpha4_opa_table
+                        0x0000c0ac    0x10  Data  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_line_indexed
+                        0x0000bf6d   0x128  Code  Lc  lv_img_decoder.o [1]
+lv_img_decoder_built_in_open
+                        0x0000bb7d   0x1a0  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_built_in_read_line
+                        0x0000bd35    0xa8  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_close    0x0000ba7d    0x22  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_create   0x0000ba9f    0x28  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_get_info
+                        0x0000b95f    0x3a  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_open     0x0000b999    0xb8  Code  Gb  lv_img_decoder.o [1]
+lv_img_decoder_read_line
+                        0x0000ba5b    0x22  Code  Gb  lv_img_decoder.o [1]
+lv_img_design           0x00015ddd   0x468  Code  Lc  lv_img.o [1]
+lv_img_draw_core        0x0000d4bb   0x1c0  Code  Lc  lv_draw_img.o [1]
+lv_img_get_auto_size    0x00015da7    0x18  Code  Gb  lv_img.o [1]
+lv_img_set_src          0x00015bf1   0x182  Code  Gb  lv_img.o [1]
+lv_img_signal           0x000162d9   0x244  Code  Lc  lv_img.o [1]
+lv_img_src_get_type     0x0000d49b    0x20  Code  Gb  lv_draw_img.o [1]
+lv_indev_get_act        0x0000b86b     0x8  Code  Gb  lv_indev.o [1]
+lv_indev_get_next       0x0000e0e9    0x14  Code  Gb  lv_hal_indev.o [1]
+lv_indev_get_obj_act    0x0000b903     0x8  Code  Gb  lv_indev.o [1]
+lv_indev_reset          0x0000b873    0x7e  Code  Gb  lv_indev.o [1]
+lv_init                 0x00007d7b    0x7e  Code  Gb  lv_obj.o [1]
+lv_initialized          0x2000afc0     0x1  Data  Lc  lv_obj.o [1]
+lv_label_dot_tmp_free   0x00016de3    0x24  Code  Lc  lv_label.o [1]
+lv_label_get_align      0x000166a5    0x20  Code  Gb  lv_label.o [1]
+lv_label_get_letter_on  0x000166d1   0x220  Code  Gb  lv_label.o [1]
+lv_label_get_text       0x00016683    0x16  Code  Gb  lv_label.o [1]
+lv_label_refr_text      0x00016945   0x370  Code  Gb  lv_label.o [1]
+lv_label_set_dot_tmp    0x00016d93    0x50  Code  Lc  lv_label.o [1]
+lv_label_set_offset_x   0x00016d6d     0xc  Code  Lc  lv_label.o [1]
+lv_label_set_offset_y   0x00016d85     0xe  Code  Lc  lv_label.o [1]
+lv_label_set_text       0x000165c5    0xb6  Code  Gb  lv_label.o [1]
+lv_mem_alloc            0x000075d7    0x64  Code  Gb  lv_mem.o [1]
+lv_mem_defrag           0x000076ed    0x36  Code  Gb  lv_mem.o [1]
+lv_mem_free             0x0000763b    0x56  Code  Gb  lv_mem.o [1]
+lv_mem_free::full_defrag_cnt
+                        0x200001c8     0x2  Data  Lc  lv_mem.o [1]
+lv_mem_realloc          0x00007691    0x5c  Code  Gb  lv_mem.o [1]
+lv_obj_add_state        0x000088ef    0x1e  Code  Gb  lv_obj.o [1]
+lv_obj_align            0x00008449    0x3e  Code  Gb  lv_obj.o [1]
+lv_obj_align_mid        0x000084a1    0x3c  Code  Gb  lv_obj.o [1]
+lv_obj_allocate_ext_attr
+                        0x00008a45    0x22  Code  Gb  lv_obj.o [1]
+lv_obj_area_is_visible  0x000081b3    0xa2  Code  Gb  lv_obj.o [1]
+lv_obj_clean_style_list
+                        0x0000857d    0x1e  Code  Gb  lv_obj.o [1]
+lv_obj_clear_state      0x0000890d    0x1e  Code  Gb  lv_obj.o [1]
+lv_obj_create           0x00007df9   0x2d0  Code  Gb  lv_obj.o [1]
+lv_obj_del              0x00008107    0x56  Code  Gb  lv_obj.o [1]
+lv_obj_design           0x00009819   0x1ce  Code  Lc  lv_obj.o [1]
+lv_obj_get_base_dir     0x00008fd7    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_get_child        0x00008b13    0x28  Code  Gb  lv_obj.o [1]
+lv_obj_get_coords       0x00008b49    0x1c  Code  Gb  lv_obj.o [1]
+lv_obj_get_disp         0x00008aa5    0x58  Code  Gb  lv_obj.o [1]
+lv_obj_get_draw_rect_ext_pad_size
+                        0x0000957f   0x1c8  Code  Gb  lv_obj.o [1]
+lv_obj_get_ext_attr     0x00009047    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_get_focused_obj  0x00009a37    0x1a  Code  Gb  lv_obj.o [1]
+lv_obj_get_group        0x0000906d    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_get_height       0x00008bc7    0x1a  Code  Gb  lv_obj.o [1]
+lv_obj_get_hidden       0x00008fbd    0x14  Code  Gb  lv_obj.o [1]
+lv_obj_get_parent       0x00008b01    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_get_screen       0x00008a87    0x1e  Code  Gb  lv_obj.o [1]
+lv_obj_get_signal_cb    0x00009035    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_get_state        0x00009003    0x32  Code  Gb  lv_obj.o [1]
+lv_obj_get_style_bg_blend_mode
+                        0x00007c83     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_bg_opa
+                        0x00007c89     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_border_blend_mode
+                        0x00007ca1     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_border_post
+                        0x00015aa7     0x4  Code  Lc  lv_img.o [1]
+lv_obj_get_style_border_post
+                        0x00007ca7     0x4  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_border_side
+                        0x00007c95     0x4  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_border_width
+                        0x00007c8f     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_clip_corner
+                        0x00015a7d     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_clip_corner
+                        0x00007c27     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_image_blend_mode
+                        0x00007d6b     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_image_recolor_opa
+                        0x00007d73     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_line_blend_mode
+                        0x00007d65     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_list   0x00008bef    0x26  Code  Gb  lv_obj.o [1]
+lv_obj_get_style_margin_bottom
+                        0x00007c71     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_margin_left
+                        0x00007c77     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_margin_right
+                        0x00007c7d     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_margin_top
+                        0x00007c6b     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_opa_scale
+                        0x00007c45     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_outline_blend_mode
+                        0x00007cc3     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_outline_opa
+                        0x00007cc9     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_outline_pad
+                        0x00007cbd     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_outline_width
+                        0x00007cb7     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pad_bottom
+                        0x00015a95     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_pad_bottom
+                        0x00016599     0x6  Code  Lc  lv_label.o [1]
+lv_obj_get_style_pad_bottom
+                        0x00007c53     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pad_inner
+                        0x00007c65     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pad_left
+                        0x00015a9b     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_pad_left
+                        0x0001659f     0x6  Code  Lc  lv_label.o [1]
+lv_obj_get_style_pad_left
+                        0x00007c59     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pad_right
+                        0x00015aa1     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_pad_right
+                        0x000165a5     0x6  Code  Lc  lv_label.o [1]
+lv_obj_get_style_pad_right
+                        0x00007c5f     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pad_top
+                        0x00015a8f     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_pad_top
+                        0x00016593     0x6  Code  Lc  lv_label.o [1]
+lv_obj_get_style_pad_top
+                        0x00007c4d     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pattern_blend_mode
+                        0x00007cf3     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pattern_image
+                        0x00007d07     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_pattern_recolor
+                        0x00007cf9     0xe  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_radius
+                        0x00007c21     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_blend_mode
+                        0x00007ce7     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_ofs_x
+                        0x00007cd5     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_ofs_y
+                        0x00007cdb     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_opa
+                        0x00007ced     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_spread
+                        0x00007ce1     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_shadow_width
+                        0x00007ccf     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_text_blend_mode
+                        0x00007d55     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_text_decor
+                        0x00007d4d     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_text_font
+                        0x000165bb     0x8  Code  Lc  lv_label.o [1]
+lv_obj_get_style_text_font
+                        0x00007d5d     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_text_letter_space
+                        0x000165ab     0x8  Code  Lc  lv_label.o [1]
+lv_obj_get_style_text_letter_space
+                        0x00007d3d     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_text_line_space
+                        0x000165b3     0x8  Code  Lc  lv_label.o [1]
+lv_obj_get_style_text_line_space
+                        0x00007d45     0x8  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_transform_angle
+                        0x00015a83     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_transform_angle
+                        0x00007c39     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_transform_height
+                        0x00007c33     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_transform_width
+                        0x00007c2d     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_transform_zoom
+                        0x00015a89     0x6  Code  Lc  lv_img.o [1]
+lv_obj_get_style_transform_zoom
+                        0x00007c3f     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_align
+                        0x00007d25     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_blend_mode
+                        0x00007d13     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_font
+                        0x00007d31     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_letter_space
+                        0x00007d0d     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_ofs_x
+                        0x00007d19     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_ofs_y
+                        0x00007d1f     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_opa
+                        0x00007d2b     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_style_value_str
+                        0x00007d37     0x6  Code  Lc  lv_obj.o [1]
+lv_obj_get_width        0x00008bad    0x1a  Code  Gb  lv_obj.o [1]
+lv_obj_get_x            0x00008b65    0x24  Code  Gb  lv_obj.o [1]
+lv_obj_get_y            0x00008b89    0x24  Code  Gb  lv_obj.o [1]
+lv_obj_handle_get_type_signal
+                        0x000090dd    0x1c  Code  Gb  lv_obj.o [1]
+lv_obj_init_draw_img_dsc
+                        0x00009451    0x7e  Code  Gb  lv_obj.o [1]
+lv_obj_init_draw_label_dsc
+                        0x000093a7    0xa2  Code  Gb  lv_obj.o [1]
+lv_obj_init_draw_line_dsc
+                        0x000094e9    0x96  Code  Gb  lv_obj.o [1]
+lv_obj_init_draw_rect_dsc
+                        0x000090f9   0x286  Code  Gb  lv_obj.o [1]
+lv_obj_invalidate       0x0000818b    0x1c  Code  Gb  lv_obj.o [1]
+lv_obj_invalidate_area  0x0000815d    0x2e  Code  Gb  lv_obj.o [1]
+lv_obj_is_focused       0x0000907f    0x22  Code  Gb  lv_obj.o [1]
+lv_obj_is_point_on_coords
+                        0x000090a1    0x3c  Code  Gb  lv_obj.o [1]
+lv_obj_is_protected     0x00008fe9    0x1a  Code  Gb  lv_obj.o [1]
+lv_obj_move_foreground  0x00008283    0x26  Code  Gb  lv_obj.o [1]
+lv_obj_realign          0x00008545    0x38  Code  Gb  lv_obj.o [1]
+lv_obj_refresh_ext_draw_pad
+                        0x00008a67    0x20  Code  Gb  lv_obj.o [1]
+lv_obj_refresh_style    0x000085b3    0xaa  Code  Gb  lv_obj.o [1]
+lv_obj_report_style_mod
+                        0x0000865d    0x2a  Code  Gb  lv_obj.o [1]
+lv_obj_reset_style_list
+                        0x0000859b    0x14  Code  Gb  lv_obj.o [1]
+lv_obj_set_adv_hittest  0x000086cb    0x22  Code  Gb  lv_obj.o [1]
+lv_obj_set_click        0x000086ed    0x1e  Code  Gb  lv_obj.o [1]
+lv_obj_set_design_cb    0x00008a33    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_set_height       0x00008429    0x18  Code  Gb  lv_obj.o [1]
+lv_obj_set_pos          0x000082cb    0x82  Code  Gb  lv_obj.o [1]
+lv_obj_set_signal_cb    0x00008a0b    0x12  Code  Gb  lv_obj.o [1]
+lv_obj_set_size         0x0000838b    0x9e  Code  Gb  lv_obj.o [1]
+lv_obj_set_state        0x00008721   0x1c2  Code  Gb  lv_obj.o [1]
+lv_obj_set_x            0x00008351    0x1a  Code  Gb  lv_obj.o [1]
+lv_obj_set_y            0x0000836b    0x18  Code  Gb  lv_obj.o [1]
+lv_obj_signal           0x00009a51    0xd2  Code  Lc  lv_obj.o [1]
+lv_point_within_circle  0x0000d24d    0x3a  Code  Lc  lv_area.o [1]
+lv_refr_area            0x0000c619   0x13a  Code  Lc  lv_refr.o [1]
+lv_refr_area_part       0x0000c753   0x118  Code  Lc  lv_refr.o [1]
+lv_refr_areas           0x0000c589    0x90  Code  Lc  lv_refr.o [1]
+lv_refr_get_top_obj     0x0000c86b    0x72  Code  Lc  lv_refr.o [1]
+lv_refr_join_area       0x0000c4cb    0xbe  Code  Lc  lv_refr.o [1]
+lv_refr_obj             0x0000c937    0xe0  Code  Lc  lv_refr.o [1]
+lv_refr_obj_and_children
+                        0x0000c8dd    0x5a  Code  Lc  lv_refr.o [1]
+lv_refr_vdb_flush       0x0000cd19    0x92  Code  Lc  lv_refr.o [1]
+lv_refr_vdb_rotate      0x0000caa3   0x26c  Code  Lc  lv_refr.o [1]
+lv_refr_vdb_rotate_90_sqr
+                        0x0000ca17    0x8c  Code  Lc  lv_refr.o [1]
+lv_signal_send          0x00008a1d    0x16  Code  Gb  lv_obj.o [1]
+lv_style_copy           0x000069bf    0x26  Code  Gb  lv_style.o [1]
+lv_style_init           0x000069b9     0x6  Code  Gb  lv_style.o [1]
+lv_style_list_copy      0x00006a3f    0xc4  Code  Gb  lv_style.o [1]
+lv_style_list_get_local_style
+                        0x00006ebb    0x1e  Code  Gb  lv_style.o [1]
+lv_style_list_get_style
+                        0x0000698f    0x2a  Code  Lc  lv_style.o [1]
+lv_style_list_init      0x00006a39     0x6  Code  Gb  lv_style.o [1]
+lv_style_remove_prop    0x000069e5    0x54  Code  Gb  lv_style.o [1]
+lv_style_reset          0x00006c87    0x12  Code  Gb  lv_style.o [1]
+lv_style_set_bg_color   0x000036e3     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_bg_opa     0x000036ed     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_border_color
+                        0x0000370b     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_border_opa
+                        0x00003715     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_border_side
+                        0x00003701     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_border_width
+                        0x000036f7     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_clip_corner
+                        0x0000367f     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_image_recolor
+                        0x000037a9     0x4  Code  Lc  lv_theme_material.o [1]
+lv_style_set_line_color
+                        0x0000379f     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_line_rounded
+                        0x00003795     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_line_width
+                        0x0000378b     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_margin_bottom
+                        0x000036d9     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_margin_top
+                        0x000036cf     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_outline_color
+                        0x00003733     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_outline_opa
+                        0x0000373d     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_outline_pad
+                        0x00003729     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_outline_width
+                        0x0000371f     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pad_bottom
+                        0x000036a7     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pad_inner  0x000036c5     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pad_left   0x000036b1     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pad_right  0x000036bb     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pad_top    0x0000369d     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_pattern_opa
+                        0x0000375b     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_radius     0x00003675     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_scale_end_color
+                        0x000037fb     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_scale_end_line_width
+                        0x000037e7     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_scale_grad_color
+                        0x000037f1     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_scale_width
+                        0x000037dd     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_shadow_color
+                        0x00003751     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_shadow_width
+                        0x00003747     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_size       0x00003689     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_text_color
+                        0x00003785     0x6  Code  Lc  lv_theme_material.o [1]
+lv_style_set_text_line_space
+                        0x00003779     0xc  Code  Lc  lv_theme_material.o [1]
+lv_style_set_transform_width
+                        0x00003693     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_transition_delay
+                        0x000037bf     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_transition_prop_5
+                        0x000037c9     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_transition_prop_6
+                        0x000037d3     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_transition_time
+                        0x000037b5     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_value_color
+                        0x00003765     0xa  Code  Lc  lv_theme_material.o [1]
+lv_style_set_value_font
+                        0x0000376f     0xa  Code  Lc  lv_theme_material.o [1]
+lv_task_create          0x0000ad71    0xae  Code  Gb  lv_task.o [1]
+lv_task_del             0x0000ae29    0x26  Code  Gb  lv_task.o [1]
+lv_task_exec            0x0000aead    0x3a  Code  Lc  lv_task.o [1]
+lv_task_handler         0x0000ac5b   0x116  Code  Gb  lv_task.o [1]
+lv_task_handler::already_running
+                        0x2000af25     0x1  Data  Lc  lv_task.o [1]
+lv_task_handler::busy_time
+                        0x2000af2c     0x4  Data  Lc  lv_task.o [1]
+lv_task_handler::idle_period_start
+                        0x2000af28     0x4  Data  Lc  lv_task.o [1]
+lv_task_ready           0x0000ae9b    0x12  Code  Gb  lv_task.o [1]
+lv_task_run             0x2000af20     0x1  Data  Lc  lv_task.o [1]
+lv_task_set_prio        0x0000ae4f    0x4c  Code  Gb  lv_task.o [1]
+lv_task_time_remaining  0x0000aef5    0x18  Code  Lc  lv_task.o [1]
+lv_theme_apply          0x0000b70f    0x18  Code  Gb  lv_theme.o [1]
+lv_theme_get_font_normal
+                        0x0000b727     0x8  Code  Gb  lv_theme.o [1]
+lv_theme_material_init  0x00006293   0x1bc  Code  Gb  lv_theme_material.o [1]
+lv_theme_set_act        0x0000b709     0x6  Code  Gb  lv_theme.o [1]
+lv_tick_elaps           0x000120c1     0xc  Code  Gb  lv_hal_tick.o [1]
+lv_tick_get             0x000120ab    0x10  Code  Gb  lv_hal_tick.o [1]
+lv_tick_inc             0x0001209d     0xe  Code  Gb  lv_hal_tick.o [1]
+lv_txt_get_next_word    0x0000dcb1   0x128  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_byte_id
+                        0x0000e06f    0x28  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_char_id
+                        0x0000e097    0x24  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_get_length  0x0000e0bb    0x22  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_next        0x0000df91    0x98  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_prev        0x0000e03b    0x34  Code  Lc  lv_txt.o [1]
+lv_txt_utf8_size        0x0000df5d    0x34  Code  Lc  lv_txt.o [1]
+lvgl_tick_task_timeout_handler
+                        0x00019fb1     0x2  Code  Lc  user_lvgl_config.o [1]
+lvgl_timer_count_test_handler
+                        0x00019fed     0x4  Code  Lc  user_lvgl_config.o [1]
+lvgl_timer_timeout_handler
+                        0x00019fb5     0x4  Code  Lc  user_lvgl_config.o [1]
+m_app_timer_sortlist    0x000190ec     0xc  Data  Lc  app_timer2.o [1]
+m_app_timer_sortlist_sortlist_cb
+                        0x2000afa4     0x4  Data  Lc  app_timer2.o [1]
+m_async_mode            0x200000e5     0x1  Data  Lc  nrf_log_backend_uart.o [1]
+m_base_counter          0x20000008     0x8  Data  Lc  app_timer2.o [1]
+m_cb                    0x2000aebc     0x8  Data  Lc  drv_rtc.o [1]
+m_cb                    0x2000ad58    0x68  Data  Lc  nrfx_twim.o [1]
+m_cb                    0x2000ae6c    0x2c  Data  Lc  nrfx_uart.o [1]
+m_cb                    0x2000ae98    0x24  Data  Lc  nrfx_uarte.o [1]
+m_colors                0x20000120    0x24  Data  Lc  nrf_log_str_formatter.o [1]
+m_contexts              0x2000af38     0x8  Data  Lc  nrf_drv_twi.o [1]
+m_contexts              0x2000af60     0x4  Data  Lc  nrf_drv_uart.o [1]
+m_global_active         0x20000000     0x1  Data  Lc  app_timer2.o [1]
+m_handlers              0x2000aec4     0x4  Data  Lc  drv_rtc.o [1]
+m_handlers              0x2000af30     0x8  Data  Lc  nrf_drv_twi.o [1]
+m_handlers              0x2000af5c     0x4  Data  Lc  nrf_drv_uart.o [1]
+m_host_present          0x2000afc1     0x1  Data  Lc  nrf_log_backend_rtt.o [1]
+m_in_critical_region    0x2000afa8     0x4  Data  Lc  app_util_platform.o [1]
+m_log_data              0x2000a260   0x420  Data  Lc  nrf_log_frontend.o [1]
+m_log_push_ringbuf      0x00017a2c     0xc  Data  Lc  nrf_log_frontend.o [1]
+m_log_push_ringbuf_buf  0x2000acd8    0x80  Data  Lc  nrf_log_frontend.o [1]
+m_log_push_ringbuf_cb   0x2000aee8    0x18  Data  Lc  nrf_log_frontend.o [1]
+m_lvgl_count_test_id    0x0001a03c     0x4  Data  Lc  user_lvgl_config.o [1]
+m_lvgl_count_test_id_data
+                        0x2000a240    0x20  Data  Lc  user_lvgl_config.o [1]
+m_lvgl_tick_task_id     0x0001a038     0x4  Data  Lc  user_lvgl_config.o [1]
+m_lvgl_tick_task_id_data
+                        0x2000a220    0x20  Data  Lc  user_lvgl_config.o [1]
+m_lvgl_timer_id         0x0001a034     0x4  Data  Lc  user_lvgl_config.o [1]
+m_lvgl_timer_id_data    0x2000a200    0x20  Data  Lc  user_lvgl_config.o [1]
+m_nrf_log_PRS_logs_data_const
+                        0x0001a5f8     0x8  Data  Gb  nrfx_prs.o [1]
+m_nrf_log_TWIM_logs_data_const
+                        0x0001a600     0x8  Data  Gb  nrfx_twim.o [1]
+m_nrf_log_UARTE_logs_data_const
+                        0x0001a610     0x8  Data  Gb  nrfx_uarte.o [1]
+m_nrf_log_UART_logs_data_const
+                        0x0001a608     0x8  Data  Gb  nrfx_uart.o [1]
+m_nrf_log_app_logs_data_const
+                        0x0001a5e8     0x8  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_app_timer_logs_data_const
+                        0x0001a5e0     0x8  Data  Gb  app_timer2.o [1]
+m_nrf_log_sortlist_logs_data_const
+                        0x0001a5f0     0x8  Data  Gb  nrf_sortlist.o [1]
+m_prs_box_4             0x2000af94     0x8  Data  Lc  nrfx_prs.o [1]
+m_req_fifo_data         0x20000024    0x58  Data  Lc  app_timer2.o [1]
+m_req_fifo_inst         0x2000007c    0x10  Data  Lc  app_timer2.o [1]
+m_rtc_inst              0x2000001c     0x8  Data  Lc  app_timer2.o [1]
+m_stamp64               0x20000010     0x8  Data  Lc  app_timer2.o [1]
+m_string_buff           0x2000adc0    0x40  Data  Lc  nrf_log_backend_rtt.o [1]
+m_string_buff           0x2000ae00    0x40  Data  Lc  nrf_log_backend_uart.o [1]
+m_twi                   0x00019c04    0x10  Data  Lc  i2c_driver.o [1]
+m_uart                  0x200000e8    0x14  Data  Gb  nrf_log_backend_uart.o [1]
+m_user_timer_id         0x0001a4b0     0x4  Data  Lc  timer_service.o [1]
+m_user_timer_id_data    0x2000aec8    0x20  Data  Lc  timer_service.o [1]
+m_xfer_done             0x200000e4     0x1  Data  Lc  nrf_log_backend_uart.o [1]
+main                    0x0001a361    0x96  Code  Gb  main.o [1]
+map_blended             0x00013b6f   0x110  Code  Lc  lv_draw_blend.o [1]
+map_normal              0x0001386f   0x2f6  Code  Lc  lv_draw_blend.o [1]
+map_set_px              0x0001374f   0x120  Code  Lc  lv_draw_blend.o [1]
+mask_mix                0x000109bb    0x1e  Code  Lc  lv_draw_mask.o [1]
+mem_buf1_32             0x2000af00    0x10  Data  Lc  lv_mem.o [1]
+mem_buf2_32             0x2000af10    0x10  Data  Lc  lv_mem.o [1]
+mem_buf_small           0x200000bc    0x10  Data  Lc  lv_mem.o [1]
+mem_max_size            0x200001d0     0x4  Data  Lc  lv_mem.o [1]
+memchr                  0x00014e45          Code  Gb  memchr.o [5]
+memcmp                  0x000109d9          Code  Gb  memcmp.o [5]
+memobj_op               0x00017af1    0x84  Code  Lc  nrf_memobj.o [1]
+merge_register_and_data
+                        0x00019bcd    0x14  Code  Lc  i2c_driver.o [1]
+module_idx_get          0x000174e9    0x32  Code  Lc  nrf_log_frontend.o [1]
+mp_active_timer         0x20000018     0x4  Data  Lc  app_timer2.o [1]
+my_logo_5               0x0001a028     0xc  Data  Gb  user_lvgl_config.o [1]
+my_logo_5_map           0x000186dc   0x388  Data  Gb  user_lvgl_config.o [1]
+node_set_next           0x0000ac3d     0xa  Code  Lc  lv_ll.o [1]
+node_set_prev           0x0000ac35     0x8  Code  Lc  lv_ll.o [1]
+nrf_atfifo_init         0x00019411    0x28  Code  Gb  nrf_atfifo.o [1]
+nrf_atfifo_item_alloc   0x00019439    0x44  Code  Gb  nrf_atfifo.o [1]
+nrf_atfifo_item_free    0x000194f5    0x20  Code  Gb  nrf_atfifo.o [1]
+nrf_atfifo_item_get     0x0001949d    0x46  Code  Gb  nrf_atfifo.o [1]
+nrf_atfifo_item_put     0x0001947d    0x20  Code  Gb  nrf_atfifo.o [1]
+nrf_atomic_flag_clear_fetch
+                        0x00017c1d     0x4  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_flag_set     0x00017c19     0x4  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_add      0x00017be9    0x18  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_fetch_and
+                        0x00017bd1    0x18  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_fetch_store
+                        0x00017ba1    0x16  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_or       0x00017bb9    0x18  Code  Gb  nrf_atomic.o [1]
+nrf_atomic_u32_sub      0x00017c01    0x18  Code  Gb  nrf_atomic.o [1]
+nrf_balloc_alloc        0x00017c4f    0x3e  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_free         0x00017c8d    0x2a  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_init         0x00017c21    0x2e  Code  Gb  nrf_balloc.o [1]
+nrf_delay_ms            0x00019981    0x1a  Code  Lc  oled_ssd1309.o [1]
+nrf_drv_twi_init        0x00019d03    0x38  Code  Gb  nrf_drv_twi.o [1]
+nrf_drv_uart_init       0x0001a229    0x52  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_use_easy_dma
+                        0x2000af58     0x1  Data  Gb  nrf_drv_uart.o [1]
+nrf_fprintf             0x00018db9    0x22  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_buffer_flush
+                        0x00018da1    0x16  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_fmt         0x00018bd5   0x1aa  Code  Gb  nrf_fprintf_format.o [1]
+nrf_gpio_cfg            0x00016e9b    0x20  Code  Lc  nrfx_twim.o [1]
+nrf_gpio_cfg            0x00017cef    0x20  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg            0x0001820d    0x20  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_cfg_default    0x00017d2b     0x8  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg_default    0x00018249     0x8  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_cfg_input      0x00017d19     0xc  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg_input      0x00018237     0xc  Code  Lc  nrfx_uarte.o [1]
+nrf_gpio_cfg_output     0x00017d0f     0xa  Code  Lc  nrfx_uart.o [1]
+nrf_gpio_cfg_output     0x0001822d     0xa  Code  Lc  nrfx_uarte.o [1]
+nrf_log_backend_add     0x0001797d    0x52  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_backend_rtt_api
+                        0x0001a748     0xc  Data  Gb  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_flush
+                        0x0001a535     0x2  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_init
+                        0x0001a4c1     0x4  Code  Gb  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_panic_set
+                        0x0001a537     0x2  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_rtt_put
+                        0x0001a517    0x10  Code  Lc  nrf_log_backend_rtt.o [1]
+nrf_log_backend_serial_put
+                        0x0001a289    0xcc  Code  Gb  nrf_log_backend_serial.o [1]
+nrf_log_backend_uart_api
+                        0x0001a754     0xc  Data  Gb  nrf_log_backend_uart.o [1]
+nrf_log_backend_uart_flush
+                        0x0001a1a1     0x2  Code  Lc  nrf_log_backend_uart.o [1]
+nrf_log_backend_uart_init
+                        0x0001a157     0x4  Code  Gb  nrf_log_backend_uart.o [1]
+nrf_log_backend_uart_panic_set
+                        0x0001a1a3    0x26  Code  Lc  nrf_log_backend_uart.o [1]
+nrf_log_backend_uart_put
+                        0x0001a191    0x10  Code  Lc  nrf_log_backend_uart.o [1]
+nrf_log_color_id_get    0x00017539    0x2e  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_default_backends_init
+                        0x0001a449    0x2a  Code  Gb  nrf_log_default_backends.o [1]
+nrf_log_frontend_dequeue
+                        0x0001776d   0x1de  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_0  0x00017753     0x6  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_hexdump_entry_process
+                        0x00019851    0xaa  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_log_init            0x000174c9    0x20  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_name_get
+                        0x0001751b    0x1a  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_panic           0x000179cf    0x26  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_std_entry_process
+                        0x000197d1    0x80  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_memobj_alloc        0x00017a3d    0x62  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_free         0x00017a9f    0x2c  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_get          0x00017acb     0x8  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_pool_init    0x00017a39     0x4  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_put          0x00017ad3    0x1e  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_read         0x00017b7d     0x6  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_write        0x00017b75     0x8  Code  Gb  nrf_memobj.o [1]
+nrf_ringbuf_init        0x00017b8d    0x12  Code  Gb  nrf_ringbuf.o [1]
+nrf_rtc_cc_set          0x00019111     0xa  Code  Lc  drv_rtc.o [1]
+nrf_rtc_event_clear     0x0001911b    0x10  Code  Lc  drv_rtc.o [1]
+nrf_sortlist_add        0x000193c9    0x20  Code  Gb  nrf_sortlist.o [1]
+nrf_sortlist_pop        0x000193e9     0xe  Code  Gb  nrf_sortlist.o [1]
+nrf_sortlist_remove     0x000193f7    0x1a  Code  Gb  nrf_sortlist.o [1]
+nrf_twim_event_check    0x00016e81     0xa  Code  Lc  nrfx_twim.o [1]
+nrf_twim_event_clear    0x00016e71    0x10  Code  Lc  nrfx_twim.o [1]
+nrf_twim_rx_buffer_set  0x00016e91     0x4  Code  Lc  nrfx_twim.o [1]
+nrf_twim_tx_buffer_set  0x00016e8b     0x6  Code  Lc  nrfx_twim.o [1]
+nrf_uart_event_check    0x00017cc9     0x4  Code  Lc  nrfx_uart.o [1]
+nrf_uart_event_clear    0x00017cb9    0x10  Code  Lc  nrfx_uart.o [1]
+nrf_uart_hwfc_pins_set  0x00017ce5     0xa  Code  Lc  nrfx_uart.o [1]
+nrf_uart_int_enable_check
+                        0x00017ccd     0xe  Code  Lc  nrfx_uart.o [1]
+nrf_uart_txrx_pins_set  0x00017cdb     0xa  Code  Lc  nrfx_uart.o [1]
+nrf_uarte_event_check   0x000181f9     0x4  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_event_clear   0x000181e9    0x10  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_hwfc_pins_set
+                        0x00018203     0x4  Code  Lc  nrfx_uarte.o [1]
+nrf_uarte_txrx_pins_set
+                        0x000181fd     0x6  Code  Lc  nrfx_uarte.o [1]
+nrfx_coredep_delay_us   0x00019101    0x10  Code  Lc  drv_rtc.o [1]
+nrfx_coredep_delay_us   0x00019c31    0x10  Code  Lc  nrf_drv_twi.o [1]
+nrfx_coredep_delay_us::delay_machine_code
+                        0x000193c0     0x8  Data  Lc  drv_rtc.o [1]
+nrfx_coredep_delay_us::delay_machine_code
+                        0x0001a440     0x8  Data  Lc  main.o [1]
+nrfx_coredep_delay_us::delay_machine_code
+                        0x00019d50     0x8  Data  Lc  nrf_drv_twi.o [1]
+nrfx_coredep_delay_us::delay_machine_code
+                        0x0001a540     0x8  Data  Lc  nrf_log_backend_rtt.o [1]
+nrfx_coredep_delay_us::delay_machine_code
+                        0x00019b20     0x8  Data  Lc  oled_ssd1309.o [1]
+nrfx_prs_acquire        0x0001745b    0x32  Code  Gb  nrfx_prs.o [1]
+nrfx_prs_release        0x0001748d    0x10  Code  Gb  nrfx_prs.o [1]
+nrfx_twim_enable        0x00016fef    0x1c  Code  Gb  nrfx_twim.o [1]
+nrfx_twim_init          0x00016f19    0xd6  Code  Gb  nrfx_twim.o [1]
+nrfx_twim_init::irq_handlers
+                        0x0001744c     0x8  Data  Lc  nrfx_twim.o [1]
+nrfx_twim_tx            0x00017273    0x36  Code  Gb  nrfx_twim.o [1]
+nrfx_twim_xfer          0x00017259    0x1a  Code  Gb  nrfx_twim.o [1]
+nrfx_uart_0_irq_handler
+                        0x000181b3     0x6  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_init          0x00017eb5    0x70  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_init::irq_handlers
+                        0x000181e4     0x4  Data  Lc  nrfx_uart.o [1]
+nrfx_uart_tx            0x00017f7d    0x96  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_tx_in_progress
+                        0x00018013     0xe  Code  Gb  nrfx_uart.o [1]
+nrfx_uart_uninit        0x00017f25    0x38  Code  Gb  nrfx_uart.o [1]
+nrfx_uarte_0_irq_handler
+                        0x000186ab     0x6  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_init         0x000183e9    0x68  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_init::irq_handlers
+                        0x000186d8     0x4  Data  Lc  nrfx_uarte.o [1]
+nrfx_uarte_tx           0x000184bb    0x8e  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_tx_in_progress
+                        0x00018551     0xc  Code  Gb  nrfx_uarte.o [1]
+nrfx_uarte_uninit       0x00018451    0x6a  Code  Gb  nrfx_uarte.o [1]
+number_count            0x2000af9c     0x4  Data  Gb  user_lvgl_config.o [1]
+obj_align_core          0x00009c1f    0x7e  Code  Lc  lv_obj.o [1]
+obj_align_mid_core      0x00009ca1   0x11a  Code  Lc  lv_obj.o [1]
+obj_del_core            0x00009747    0xcc  Code  Lc  lv_obj.o [1]
+obj_to_foreground       0x0000b6d1    0x28  Code  Lc  lv_group.o [1]
+page_init               0x000056e5    0xd6  Code  Lc  lv_theme_material.o [1]
+pins_to_default         0x00017e53    0x62  Code  Lc  nrfx_uart.o [1]
+pins_to_default         0x00018387    0x62  Code  Lc  nrfx_uarte.o [1]
+postfix_process         0x000197a1    0x30  Code  Lc  nrf_log_str_formatter.o [1]
+prefix_process          0x00019741    0x60  Code  Lc  nrf_log_str_formatter.o [1]
+px_num                  0x2000af7c     0x4  Data  Lc  lv_refr.o [1]
+refresh_children_position
+                        0x00009b2d    0x3a  Code  Lc  lv_obj.o [1]
+refresh_children_style  0x00009bed    0x28  Code  Lc  lv_obj.o [1]
+report_style_mod_core   0x00009b6f    0x7e  Code  Lc  lv_obj.o [1]
+rle_bpp                 0x2000af4c     0x1  Data  Lc  lv_font_fmt_txt.o [1]
+rle_cnt                 0x2000af4e     0x1  Data  Lc  lv_font_fmt_txt.o [1]
+rle_in                  0x2000af54     0x4  Data  Lc  lv_font_fmt_txt.o [1]
+rle_next                0x000127bb    0x92  Code  Lc  lv_font_fmt_txt.o [1]
+rle_prev_v              0x2000af4d     0x1  Data  Lc  lv_font_fmt_txt.o [1]
+rle_rdp                 0x2000af50     0x4  Data  Lc  lv_font_fmt_txt.o [1]
+rle_state               0x2000af4f     0x1  Data  Lc  lv_font_fmt_txt.o [1]
+rtc_irq                 0x00018f5d    0xae  Code  Lc  app_timer2.o [1]
+rtc_update              0x00018e9b    0xc0  Code  Lc  app_timer2.o [1]
+rtt_log_backend         0x0001a6ac    0x10  Data  Lc  nrf_log_default_backends.o [1]
+rx_byte                 0x00018029    0x32  Code  Lc  nrfx_uart.o [1]
+rx_done_event           0x0001805b    0x16  Code  Lc  nrfx_uart.o [1]
+rx_done_event           0x00018565    0x16  Code  Lc  nrfx_uarte.o [1]
+scalbln                 0x000153f5          Code  Gb  ldexp.o [4]
+scalblnl                0x000153f5          Code  Gb  ldexp.o [4]
+scalbn                  0x000153f5          Code  Gb  ldexp.o [4]
+scalbnl                 0x000153f5          Code  Gb  ldexp.o [4]
+scale                   0x0001459f    0x46  Code  Lc  xprintffull.o [3]
+sec_hand                0x2000afb8     0x4  Data  Lc  xfail_s.o [3]
+send_data               0x00019ac1    0x20  Code  Lc  oled_ssd1309.o [1]
+serial_tx               0x0001a4c5    0x52  Code  Lc  nrf_log_backend_rtt.o [1]
+serial_tx               0x0001a15b    0x36  Code  Lc  nrf_log_backend_uart.o [1]
+severity_names          0x2000010c    0x14  Data  Lc  nrf_log_str_formatter.o [1]
+shadow_blur_corner      0x0000f5eb   0x13c  Code  Lc  lv_draw_rect.o [1]
+shadow_draw_corner_buf  0x0000f471   0x17a  Code  Lc  lv_draw_rect.o [1]
+show_error              0x0000dba1    0x3c  Code  Lc  lv_draw_img.o [1]
+sin0_90_table           0x000121a4    0xb8  Data  Lc  lv_math.o [1]
+slider_init             0x0000445d   0x182  Code  Lc  lv_theme_material.o [1]
+sortlist_pop            0x00018e95     0x6  Code  Lc  app_timer2.o [1]
+sprintf                 0x0001a061    0x40  Code  Gb  sprintf.o [3]
+ssd1306_flush           0x00019a41    0x66  Code  Gb  oled_ssd1309.o [1]
+ssd1306_init            0x0001999d    0x6a  Code  Gb  oled_ssd1309.o [1]
+ssd1306_rounder         0x00019aa7    0x18  Code  Gb  oled_ssd1309.o [1]
+ssd1306_set_px_cb       0x00019a11    0x30  Code  Gb  oled_ssd1309.o [1]
+std_header_set          0x00017631    0x4c  Code  Lc  nrf_log_frontend.o [1]
+std_n                   0x000176f9    0x5a  Code  Lc  nrf_log_frontend.o [1]
+strchr                  0x00014ded          Code  Gb  strchr.o [5]
+strcmp                  0x000122a9          Code  Gb  strcmp.o [5]
+strcpy                  0x0001225d          Code  Gb  strcpy.o [5]
+strlen                  0x00012065          Code  Gb  strlen.o [5]
+style_resize            0x000071e7    0x16  Code  Lc  lv_style.o [1]
+style_snapshot          0x0000a6d5   0x18a  Code  Lc  lv_obj.o [1]
+style_snapshot_compare  0x0000a877   0x10c  Code  Lc  lv_obj.o [1]
+styles                  0x2000ae68     0x4  Data  Lc  lv_theme_material.o [1]
+switch_init             0x00004629    0xba  Code  Lc  lv_theme_material.o [1]
+sys_time                0x2000af68     0x4  Data  Lc  lv_hal_tick.o [1]
+table_init              0x00005df1   0x154  Code  Lc  lv_theme_material.o [1]
+tabview_win_shared_init
+                        0x00005f5b   0x316  Code  Lc  lv_theme_material.o [1]
+task_created            0x2000af24     0x1  Data  Lc  lv_task.o [1]
+task_deleted            0x2000af22     0x1  Data  Lc  lv_task.o [1]
+task_list_changed       0x2000af23     0x1  Data  Lc  lv_task.o [1]
+textarea_init           0x000057d3    0xa8  Code  Lc  lv_theme_material.o [1]
+theme                   0x2000ae40    0x28  Data  Lc  lv_theme_material.o [1]
+theme_apply             0x00006475   0x41e  Code  Lc  lv_theme_material.o [1]
+tick_irq_flag           0x2000af64     0x1  Data  Lc  lv_hal_tick.o [1]
+timer_expire            0x00018e2d    0x66  Code  Lc  app_timer2.o [1]
+timer_req_schedule      0x00019015    0x34  Code  Lc  app_timer2.o [1]
+trans_anim_cb           0x0000a095    0xb2  Code  Lc  lv_obj.o [1]
+trans_anim_ready_cb     0x0000a19b    0x58  Code  Lc  lv_obj.o [1]
+trans_anim_start_cb     0x0000a147    0x54  Code  Lc  lv_obj.o [1]
+trans_create            0x00009dcd   0x1cc  Code  Lc  lv_obj.o [1]
+trans_del               0x0000a023    0x72  Code  Lc  lv_obj.o [1]
+twi_clear_bus           0x00019c41    0x82  Code  Lc  nrf_drv_twi.o [1]
+twi_handler             0x00019be1    0x20  Code  Lc  i2c_driver.o [1]
+twi_rx_done             0x2000afbd     0x1  Data  Lc  i2c_driver.o [1]
+twi_tx_done             0x2000afbc     0x1  Data  Lc  i2c_driver.o [1]
+twim_evt_handler        0x00019cc7    0x3c  Code  Lc  nrf_drv_twi.o [1]
+twim_irq_handler        0x000172a9   0x152  Code  Lc  nrfx_twim.o [1]
+twim_list_enable_handle
+                        0x0001700b    0x1a  Code  Lc  nrfx_twim.o [1]
+twim_xfer               0x00017025   0x22c  Code  Lc  nrfx_twim.o [1]
+tx_byte                 0x00017f5d    0x20  Code  Lc  nrfx_uart.o [1]
+tx_done_event           0x00018071    0x1a  Code  Lc  nrfx_uart.o [1]
+tx_done_event           0x0001857b    0x1a  Code  Lc  nrfx_uarte.o [1]
+uart_evt_handler        0x0001a201     0x2  Code  Lc  nrf_drv_uart.o [1]
+uart_evt_handler        0x0001a10d     0x8  Code  Lc  nrf_log_backend_uart.o [1]
+uart_init               0x0001a115    0x42  Code  Lc  nrf_log_backend_uart.o [1]
+uart_irq_handler        0x00018091   0x11e  Code  Lc  nrfx_uart.o [1]
+uart_log_backend        0x0001a6bc    0x10  Data  Lc  nrf_log_default_backends.o [1]
+uarte_evt_handler       0x0001a1fd     0x4  Code  Lc  nrf_drv_uart.o [1]
+uarte_irq_handler       0x000185ad    0xe6  Code  Lc  nrfx_uarte.o [1]
+unicode_list_1          0x00002874    0x78  Data  Lc  lv_font_montserrat_14.o [1]
+unicode_list_compare    0x0001285d     0x8  Code  Lc  lv_font_fmt_txt.o [1]
+unsigned_print          0x00018a91    0xa0  Code  Lc  nrf_fprintf_format.o [1]
+unsigned_print::_aV2C   0x00018d90    0x10  Data  Lc  nrf_fprintf_format.o [1]
+update_style_cache      0x0000a201   0x31a  Code  Lc  lv_obj.o [1]
+update_style_cache_children
+                        0x0000a535    0xc4  Code  Lc  lv_obj.o [1]
+user_i2c_init           0x00019b41    0x32  Code  Gb  i2c_driver.o [1]
+user_i2c_write          0x00019b75    0x58  Code  Gb  i2c_driver.o [1]
+user_lvgl_display_imange
+                        0x00019fc5    0x28  Code  Gb  user_lvgl_config.o [1]
+user_lvgl_init          0x00019ed1    0xbc  Code  Gb  user_lvgl_config.o [1]
+user_lvgl_tick          0x00019fb9     0x2  Code  Gb  user_lvgl_config.o [1]
+user_lvgl_timer         0x00019fc1     0x4  Code  Gb  user_lvgl_config.o [1]
+user_timer_service_init
+                        0x0001a47d    0x22  Code  Gb  timer_service.o [1]
+user_timer_timeout_handler
+                        0x0001a4a5     0xc  Code  Lc  timer_service.o [1]
+work_mem                0x200001cc     0x4  Data  Lc  lv_mem.o [1]
+xfer_completeness_check
+                        0x00016ebd    0x5a  Code  Lc  nrfx_twim.o [1]
+zero_mem                0x200081d4     0x4  Data  Lc  lv_mem.o [1]
+
+
+[1] = D:\ProjectWork\33.OLED_NRF518\OLED_NRF_I2C\examples\peripheral\twi_scanner\pca10040\blank\iar\_build
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  93 858 bytes of readonly  code memory
+  14 819 bytes of readonly  data memory
+  53 186 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
