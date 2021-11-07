@@ -80,7 +80,7 @@ bool user_i2c_init(void)
         .interrupt_priority = APP_IRQ_PRIORITY_HIGH,
         .clear_bus_init = false};
 
-    if ((error_code = (int8_t)nrf_drv_twi_init(&m_twi, &twi_config, twi_handler, NULL)) == NRF_SUCCESS)
+    if ((error_code = (int8_t)nrf_drv_twi_init(&m_twi, &twi_config, NULL, NULL)) == NRF_SUCCESS)
     {
         nrf_drv_twi_enable(&m_twi);
     }
@@ -124,13 +124,13 @@ int8_t user_i2c_write(uint8_t device_address, uint8_t reg_addr, const uint8_t *r
     //     NRF_LOG_FLUSH();
     // }
 
-    if (err_code != NRF_SUCCESS)
-        return -1;
+    //if (err_code != NRF_SUCCESS)
+    //    return -1;
 
-    while ((!twi_tx_done) && --timeout)
-        ;
-    if (!timeout)
-        return -1;
+    //while ((!twi_tx_done) && --timeout)
+    //    ;
+    //if (!timeout)
+    //    return -1;
 
     twi_tx_done = false;
     return (err_code == NRF_SUCCESS) ? 0 : -1;

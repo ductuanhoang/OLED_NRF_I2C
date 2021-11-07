@@ -27,8 +27,6 @@
   <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;Application;my_lib"/>
   <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;Application;my_lib;logo"/>
   <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;Application;my_lib;lvgl"/>
-  <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;Application;my_lib;lvgl;lv_core"/>
-  <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;Application;my_lib;lvgl;lv_misc"/>
   <ProjectSessionItem path="twi_scanner_pca10040;twi_scanner_pca10040;nRF_Drivers"/>
  </Project>
  <Register1>
@@ -50,7 +48,9 @@
   <Trace enabled="Yes"/>
  </TraceWindow>
  <Watch1>
-  <Watches active="1" update="Never"/>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="line_points" name="line_points" radix="-1" linenumber="721" filename="../../../my_lib/user_lvgl_config.c"/>
+  </Watches>
  </Watch1>
  <Watch2>
   <Watches active="0" update="Never"/>
@@ -62,14 +62,16 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="112" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="92" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="420" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/main.c" useBinaryEdit="0" left="0" path="../../../my_lib/user_lvgl_config.c" selected="1" top="408" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="152" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/i2c_driver.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="166" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="193" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_widgets/lv_chart.c" selected="0" top="178" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="43" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_widgets/lv_chart.h" selected="0" top="19" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="189" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_core/lv_obj.h" selected="0" top="130" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="349" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../my_lib/oled_ssd1309.c" selected="0" top="389" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="41" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_misc/lv_area.h" selected="0" top="29" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="79" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="73" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="225" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/main.c" useBinaryEdit="0" left="0" path="../../../my_lib/user_lvgl_config.c" selected="1" top="202" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="152" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/i2c_driver.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="129" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="193" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_widgets/lv_chart.c" selected="0" top="178" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="43" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_widgets/lv_chart.h" selected="0" top="19" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="190" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_core/lv_obj.h" selected="0" top="159" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="57" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/src/lv_misc/lv_area.h" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="23" useTextEdit="1" openedFrom="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/user_lvgl_config.c" useBinaryEdit="0" left="0" path="../../../my_lib/lvgl/lv_conf.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="26" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../my_lib/user_lvgl_config.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="129" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../my_lib/i2c_driver.c" selected="0" top="114" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="twi_scanner_pca10040" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.50a/source/thumb_crt0.s&#xa;" fileDialogInitialDirectory="D:/1.Work/Test/OLED_NRF_I2C/examples/peripheral/twi_scanner/my_lib/logo" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
