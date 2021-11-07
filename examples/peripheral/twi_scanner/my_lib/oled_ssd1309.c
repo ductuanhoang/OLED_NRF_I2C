@@ -338,12 +338,10 @@ static uint8_t send_data(lv_disp_drv_t *disp_drv, void *bytes, size_t bytes_len)
 { // command
     (void) disp_drv;
     uint8_t *data = (uint8_t *) bytes;
-//    spi_gpio_clear_dc();
-	for (int idx = 0; idx < bytes_len; idx++)
-	{
-		// user_spi_send_data(&data[idx], 1);
-        user_i2c_write(OLED_I2C_ADDRESS, 0x00, &data[idx], 1);
-	}
+    for (int idx = 0; idx < bytes_len; idx++)
+    {
+      user_i2c_write(OLED_I2C_ADDRESS, 0x00, &data[idx], 1);
+    }
     return true;
 }
 
@@ -351,10 +349,8 @@ static uint8_t send_pixels(lv_disp_drv_t *disp_drv, void *color_buffer, size_t b
 {
     (void) disp_drv;
     uint8_t *data = (uint8_t *) color_buffer;
-//	spi_gpio_set_dc();
 	for (int idx = 0; idx < buffer_len; idx++)
 	{
-        // user_spi_send_data(&data[idx], 1);
         user_i2c_write(OLED_I2C_ADDRESS, 0x40, &data[idx], 1);
 	}
     return true;

@@ -117,12 +117,12 @@ int8_t user_i2c_write(uint8_t device_address, uint8_t reg_addr, const uint8_t *r
     merge_register_and_data(twi_tx_buffer, reg_addr, reg_data, len);
 
     err_code = nrf_drv_twi_tx(&m_twi, device_address, twi_tx_buffer, len + 1, false);
-//     for (int i = 0; i < len + 1; i++)
-//    {
-//         /* code */
-//         NRF_LOG_INFO("twi_tx_buffer[%i] = %x\r\n", i, twi_tx_buffer[i]);
-//         NRF_LOG_FLUSH();
-//     }
+    // for (int i = 0; i < len + 1; i++)
+    //{
+    //     /* code */
+    //     NRF_LOG_INFO("twi_tx_buffer[%i] = %x\r\n", i, twi_tx_buffer[i]);
+    //     NRF_LOG_FLUSH();
+    // }
 
     if (err_code != NRF_SUCCESS)
         return -1;

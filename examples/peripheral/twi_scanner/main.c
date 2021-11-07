@@ -64,47 +64,20 @@
 
 #include "user_lvgl_config.h"
 #include "timer_service.h"
-///* TWI instance ID. */
-//#if TWI0_ENABLED
-//#define TWI_INSTANCE_ID     0
-//#elif TWI1_ENABLED
-//#define TWI_INSTANCE_ID     1
-//#endif
-//
-// /* Number of possible TWI addresses. */
-// #define TWI_ADDRESSES      127
-//
-///* TWI instance. */
-//static const nrf_drv_twi_t m_twi = NRF_DRV_TWI_INSTANCE(TWI_INSTANCE_ID);
-//
-//
-///**
-// * @brief TWI initialization.
-// */
-//void twi_init (void)
-//{
-//    ret_code_t err_code;
-//
-//    const nrf_drv_twi_config_t twi_config = {
-//       .scl                = ARDUINO_SCL_PIN,
-//       .sda                = ARDUINO_SDA_PIN,
-//       .frequency          = NRF_DRV_TWI_FREQ_100K,
-//       .interrupt_priority = APP_IRQ_PRIORITY_HIGH,
-//       .clear_bus_init     = false
-//    };
-//
-//    err_code = nrf_drv_twi_init(&m_twi, &twi_config, NULL, NULL);
-//    APP_ERROR_CHECK(err_code);
-//
-//    nrf_drv_twi_enable(&m_twi);
-//}
+volatile bool update_value_status = false;
 
-
+static void lfclk_request(void)
+{
+    ret_code_t err_code = nrf_drv_clock_init();
+    APP_ERROR_CHECK(err_code);
+    nrf_drv_clock_lfclk_request(NULL);
+}
 /**
  * @brief Function for main application entry.
  */
 int main(void)
 {
+    lfclk_request();
     // Initialize timer module.
     ret_code_t err_code = app_timer_init();
     APP_ERROR_CHECK(err_code);
@@ -115,46 +88,18 @@ int main(void)
     NRF_LOG_INFO("TWI scanner started.");
     NRF_LOG_FLUSH();
 
-//    twi_init();
     user_lvgl_init();
-    user_timer_service_init();
-//    for (address = 1; address <= TWI_ADDRESSES; address++)
-//    {
-//        err_code = nrf_drv_twi_rx(&m_twi, address, &sample_data, sizeof(sample_data));
-//        if (err_code == NRF_SUCCESS)
-//        {
-//            detected_device = true;
-//            NRF_LOG_INFO("TWI device detected at address 0x%x.", address);
-//        }
-//        NRF_LOG_FLUSH();
-//    }
-//
-//    if (!detected_device)
-//    {
-//        NRF_LOG_INFO("No device was found.");
-//        NRF_LOG_FLUSH();
-//    }
-    uint32_t count;
-    uint16_t count_2 = 0;
+
     while (true)
     {
-        count++;
-        count_2++;
-        if( count_2 > 100)
+        if( update_value_status == true)
         {
-            count_2 = 0;
-            user_lvgl_timer();
+            update_value_status = false;
+            int16_t r = rand() % (64 - 30);
+            lv_ex_line_1(r);
         }
-        if(count > 1000)
-        {
-            count = 0;
-            NRF_LOG_INFO("TWI scanner started update number");
-            NRF_LOG_FLUSH();
-            user_lvgl_display_imange();
-        }
-        /* Empty loop. */
-        user_lvgl_tick();
-        nrf_delay_ms(1);
+        update_value_status = true;
+        nrf_delay_ms(100);
     }
 }
 

@@ -73,6 +73,8 @@
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_twim.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_uart.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_uarte.c" />
+      <file file_name="../../../../../../integration/nrfx/legacy/nrf_drv_clock.c" />
+      <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_clock.c" />
     </folder>
     <folder Name="Application">
       <file file_name="../../../main.c" />
@@ -81,8 +83,6 @@
         <file file_name="../../../my_lib/common.h" />
         <file file_name="../../../my_lib/i2c_driver.c" />
         <file file_name="../../../my_lib/i2c_driver.h" />
-        <file file_name="../../../my_lib/my_logo.h" />
-        <file file_name="../../../my_lib/my_logo_5.h" />
         <file file_name="../../../my_lib/oled_ssd1309.c" />
         <file file_name="../../../my_lib/oled_ssd1309.h" />
         <file file_name="../../../my_lib/timer_service.c" />
@@ -309,6 +309,11 @@
           <file file_name="../../../my_lib/lvgl/lv_conf.h" />
           <file file_name="../../../my_lib/lvgl/lvgl.h" />
         </folder>
+        <folder Name="logo">
+          <file file_name="../../../my_lib/logo/battery_32px.h" />
+          <file file_name="../../../my_lib/logo/battery_charger_64px.h" />
+          <file file_name="../../../my_lib/logo/my_logo.h" />
+        </folder>
       </folder>
     </folder>
     <folder Name="nRF_Segger_RTT">
@@ -324,7 +329,7 @@
     <configuration
       Name="Release"
       c_preprocessor_definitions="APP_TIMER_V2;APP_TIMER_V2_RTC1_ENABLED"
-      c_user_include_directories="../../../../../../components/libraries/atomic_fifo;../../../../../../components/libraries/sortlist;../../../../../../components/libraries/timer;../../../my_lib;../../../my_lib/fonts2;../../../my_lib/lvgl;../../../my_lib/lvgl/src;../../../my_lib/lvgl/src/lv_core;../../../my_lib/lvgl/src/lv_draw;../../../my_lib/lvgl/src/lv_font;../../../my_lib/lvgl/src/lv_gpu;../../../my_lib/lvgl/src/lv_hal;../../../my_lib/lvgl/src/lv_misc;../../../my_lib/lvgl/src/lv_themes;../../../my_lib/lvgl/src/lv_widgets" />
+      c_user_include_directories="../../../../../../components/libraries/atomic_fifo;../../../../../../components/libraries/sortlist;../../../../../../components/libraries/timer;../../../my_lib;../../../my_lib/fonts2;../../../my_lib/logo;../../../my_lib/lvgl;../../../my_lib/lvgl/src;../../../my_lib/lvgl/src/lv_core;../../../my_lib/lvgl/src/lv_draw;../../../my_lib/lvgl/src/lv_font;../../../my_lib/lvgl/src/lv_gpu;../../../my_lib/lvgl/src/lv_hal;../../../my_lib/lvgl/src/lv_misc;../../../my_lib/lvgl/src/lv_themes;../../../my_lib/lvgl/src/lv_widgets" />
   </project>
   <configuration
     Name="Release"

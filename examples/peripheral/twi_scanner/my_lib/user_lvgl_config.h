@@ -23,6 +23,8 @@ void user_lvgl_update_number(void);
 void user_lvgl_timer();
 
 void user_lvgl_display_imange(void);
+
+void lv_ex_line_1(int16_t ecg_value);
 /****************************************************************************/
 /***         Exported global functions                                     ***/
 /****************************************************************************/

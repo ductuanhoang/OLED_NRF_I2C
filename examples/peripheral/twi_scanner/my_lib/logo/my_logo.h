@@ -3,10 +3,10 @@
 #ifndef LV_ATTRIBUTE_MEM_ALIGN
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
-#ifndef LV_ATTRIBUTE_IMG_MY_LOGO_4
-#define LV_ATTRIBUTE_IMG_MY_LOGO_4
+#ifndef LV_ATTRIBUTE_IMG_MY_LOGO
+#define LV_ATTRIBUTE_IMG_MY_LOGO
 #endif
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_IMG_MY_LOGO_4 uint8_t my_logo_4_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_IMG_MY_LOGO uint8_t my_logo_map[] = {
   0xfd, 0xfd, 0xfd, 0xff, 	/*Color of index 0*/
   0x14, 0x14, 0x13, 0xff, 	/*Color of index 1*/
 
@@ -76,11 +76,11 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_IMG_MY_LOGO_4 uint8_t my_logo_4_map[] 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t my_logo_4 = {
+const lv_img_dsc_t my_logo = {
   .header.always_zero = 0,
   .header.w = 128,
   .header.h = 64,
   .data_size = 1033,
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
-  .data = my_logo_4_map,
+  .data = my_logo_map,
 };
